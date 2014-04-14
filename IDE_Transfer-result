@@ -1,0 +1,61 @@
+# Execute the target download command
+#
+#Download the file.
+host_file_name=$2
+$fixed_path/lsz --escape --binary --overwrite $host_file_name < $tty_port_id  > $tty_port_id
+Sending: Blink.cpp.elf
+
+Bytes Sent:   1024/  49184   BPS:319304   ETA 00:00  
+Bytes Sent:   9216/  49184   BPS:2447894  ETA 00:00  
+Bytes Sent:  10240/  49184   BPS:2661235  ETA 00:00  
+Bytes Sent:  11264/  49184   BPS:2873586  ETA 00:00  
+Bytes Sent:  12288/  49184   BPS:3049139  ETA 00:00  
+Bytes Sent:  13312/  49184   BPS:3228738  ETA 00:00  
+Bytes Sent:  14336/  49184   BPS:3447004  ETA 00:00  
+Bytes Sent:  15360/  49184   BPS:3659859  ETA 00:00  
+Bytes Sent:  16384/  49184   BPS:3862380  ETA 00:00  
+Bytes Sent:  17408/  49184   BPS:4064486  ETA 00:00  
+Bytes Sent:  18432/  49184   BPS:4221789  ETA 00:00  
+Bytes Sent:  19456/  49184   BPS:4354555  ETA 00:00  
+Bytes Sent:  20480/  49184   BPS:4480458  ETA 00:00  
+Bytes Sent:  21504/  49184   BPS:4605745  ETA 00:00  
+Bytes Sent:  22528/  49184   BPS:4333178  ETA 00:00  
+Bytes Sent:  23552/  49184   BPS:4437946  ETA 00:00  
+Bytes Sent:  24576/  49184   BPS:4550356  ETA 00:00  
+Bytes Sent:  25600/  49184   BPS:4653672  ETA 00:00  
+Bytes Sent:  26624/  49184   BPS:4756939  ETA 00:00  
+Bytes Sent:  27648/  49184   BPS:4471681  ETA 00:00  
+Bytes Sent:  28672/  49184   BPS:4342894  ETA 00:00  
+Bytes Sent:  29696/  49184   BPS:4423712  ETA 00:00  
+Bytes Sent:  30720/  49184   BPS:4507101  ETA 00:00  
+Bytes Sent:  31744/  49184   BPS:4589272  ETA 00:00  
+Bytes Sent:  32768/  49184   BPS:4669235  ETA 00:00  
+Bytes Sent:  33792/  49184   BPS:4407560  ETA 00:00  
+Bytes Sent:  34816/  49184   BPS:4297748  ETA 00:00  
+Bytes Sent:  35840/  49184   BPS:4224478  ETA 00:00  
+Bytes Sent:  36864/  49184   BPS:4123058  ETA 00:00  
+Bytes Sent:  37888/  49184   BPS:4186569  ETA 00:00  
+Bytes Sent:  38912/  49184   BPS:4092188  ETA 00:00  
+Bytes Sent:  39936/  49184   BPS:4155285  ETA 00:00  
+Bytes Sent:  40960/  49184   BPS:3968278  ETA 00:00  
+Bytes Sent:  41984/  49184   BPS:3842574  ETA 00:00  
+Bytes Sent:  43008/  49184   BPS:3898861  ETA 00:00  
+Bytes Sent:  44032/  49184   BPS:3961127  ETA 00:00  
+Bytes Sent:  45056/  49184   BPS:4020734  ETA 00:00  
+Bytes Sent:  46080/  49184   BPS:3742709  ETA 00:00  
+Bytes Sent:  47104/  49184   BPS:3811047  ETA 00:00  
+Bytes Sent:  48128/  49184   BPS:3881616  ETA 00:00  
+Bytes Sent:  49152/  49184   BPS:3911850  ETA 00:00  
+Bytes Sent:  49184   BPS:626955                          
+
+Transfer complete
+#
+#mv the downloaded file to /sketch/sketch.elf 
+target_download_name="${host_file_name##*/}" 
+Moving downloaded file to /sketch/sketch.elf on target
+echo "Moving downloaded file to /sketch/sketch.elf on target"
+$fixed_path/lsz --escape -c "mv $target_download_name /sketch/sketch.elf; chmod +x /sketch/sketch.elf" < $tty_port_id > $tty_port_id
+
+Transfer complete
+#
+#
