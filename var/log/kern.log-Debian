@@ -1,0 +1,771 @@
+This is comment out by etc/modules LKM spi-lpc-sch 
+
+Jan  1 00:11:58 localhost kernel: imklog 5.8.11, log source = /proc/kmsg started.
+Jan  1 00:11:58 localhost kernel: [    0.000000] Initializing cgroup subsys cpuset
+Jan  1 00:11:58 localhost kernel: [    0.000000] Initializing cgroup subsys cpu
+Jan  1 00:11:58 localhost kernel: [    0.000000] Linux version 3.8.7-yocto-standard (clntonsw@irsswdev001) (gcc version 4.7.2 (GCC) ) #1 Tue Oct 1 00:09:01 IST 2013
+Jan  1 00:11:58 localhost kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Jan  1 00:11:58 localhost kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x0000000000096fff] usable
+Jan  1 00:11:58 localhost kernel: [    0.000000] BIOS-e820: [mem 0x0000000000097000-0x0000000000097fff] reserved
+Jan  1 00:11:58 localhost kernel: [    0.000000] BIOS-e820: [mem 0x0000000000098000-0x000000000009ffff] usable
+Jan  1 00:11:58 localhost kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000000f0defff] usable
+Jan  1 00:11:58 localhost kernel: [    0.000000] BIOS-e820: [mem 0x000000000f0df000-0x000000000f11efff] ACPI data
+Jan  1 00:11:58 localhost kernel: [    0.000000] BIOS-e820: [mem 0x000000000f11f000-0x000000000f1defff] reserved
+Jan  1 00:11:58 localhost kernel: [    0.000000] BIOS-e820: [mem 0x000000000f1df000-0x000000000fedefff] ACPI NVS
+Jan  1 00:11:58 localhost kernel: [    0.000000] BIOS-e820: [mem 0x000000000fedf000-0x000000000feeefff] reserved
+Jan  1 00:11:58 localhost kernel: [    0.000000] BIOS-e820: [mem 0x000000000feef000-0x000000000feeffff] usable
+Jan  1 00:11:58 localhost kernel: [    0.000000] BIOS-e820: [mem 0x00000000e0000000-0x00000000efffffff] reserved
+Jan  1 00:11:58 localhost kernel: [    0.000000] BIOS-e820: [mem 0x00000000fed1c000-0x00000000fed1ffff] reserved
+Jan  1 00:11:58 localhost kernel: [    0.000000] BIOS-e820: [mem 0x00000000ff800000-0x00000000ffffffff] reserved
+Jan  1 00:11:58 localhost kernel: [    0.000000] Early serial console at MMIO32 0x8010f000 (options '115200n8')
+Jan  1 00:11:58 localhost kernel: [    0.000000] bootconsole [uart0] enabled
+Jan  1 00:11:58 localhost kernel: [    0.000000] NX (Execute Disable) protection: active
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: EFI v2.31 by EKI
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi:  SMBIOS=0xfeee000  ACPI=0xf11e000  ACPI 2.0=0xf11e014 
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem00: type=7, attr=0xf, range=[0x0000000000000000-0x0000000000095000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem01: type=2, attr=0xf, range=[0x0000000000095000-0x0000000000097000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem02: type=0, attr=0xf, range=[0x0000000000097000-0x0000000000098000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem03: type=7, attr=0xf, range=[0x0000000000098000-0x00000000000a0000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem04: type=2, attr=0xf, range=[0x0000000000100000-0x0000000000301000) (2MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem05: type=7, attr=0xf, range=[0x0000000000301000-0x0000000001ede000) (27MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem06: type=4, attr=0xf, range=[0x0000000001ede000-0x0000000002000000) (1MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem07: type=7, attr=0xf, range=[0x0000000002000000-0x000000000c0e0000) (160MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem08: type=4, attr=0xf, range=[0x000000000c0e0000-0x000000000c100000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem09: type=7, attr=0xf, range=[0x000000000c100000-0x000000000d9df000) (24MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem10: type=2, attr=0xf, range=[0x000000000d9df000-0x000000000df40000) (5MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem11: type=4, attr=0xf, range=[0x000000000df40000-0x000000000df84000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem12: type=2, attr=0xf, range=[0x000000000df84000-0x000000000df87000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem13: type=1, attr=0xf, range=[0x000000000df87000-0x000000000dfc8000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem14: type=4, attr=0xf, range=[0x000000000dfc8000-0x000000000e458000) (4MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem15: type=3, attr=0xf, range=[0x000000000e458000-0x000000000e45f000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem16: type=4, attr=0xf, range=[0x000000000e45f000-0x000000000e4b9000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem17: type=3, attr=0xf, range=[0x000000000e4b9000-0x000000000e4c6000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem18: type=4, attr=0xf, range=[0x000000000e4c6000-0x000000000e4c8000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem19: type=3, attr=0xf, range=[0x000000000e4c8000-0x000000000e4ca000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem20: type=4, attr=0xf, range=[0x000000000e4ca000-0x000000000e4cd000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem21: type=3, attr=0xf, range=[0x000000000e4cd000-0x000000000e4d2000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem22: type=4, attr=0xf, range=[0x000000000e4d2000-0x000000000e4d3000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem23: type=3, attr=0xf, range=[0x000000000e4d3000-0x000000000e4e7000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem24: type=4, attr=0xf, range=[0x000000000e4e7000-0x000000000e4e8000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem25: type=3, attr=0xf, range=[0x000000000e4e8000-0x000000000e4ee000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem26: type=4, attr=0xf, range=[0x000000000e4ee000-0x000000000e4ef000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem27: type=3, attr=0xf, range=[0x000000000e4ef000-0x000000000e520000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem28: type=4, attr=0xf, range=[0x000000000e520000-0x000000000e534000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem29: type=3, attr=0xf, range=[0x000000000e534000-0x000000000e539000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem30: type=4, attr=0xf, range=[0x000000000e539000-0x000000000e53a000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem31: type=3, attr=0xf, range=[0x000000000e53a000-0x000000000e54b000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem32: type=4, attr=0xf, range=[0x000000000e54b000-0x000000000e55b000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem33: type=3, attr=0xf, range=[0x000000000e55b000-0x000000000e567000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem34: type=4, attr=0xf, range=[0x000000000e567000-0x000000000e57c000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem35: type=3, attr=0xf, range=[0x000000000e57c000-0x000000000e57e000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem36: type=4, attr=0xf, range=[0x000000000e57e000-0x000000000e5ad000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem37: type=3, attr=0xf, range=[0x000000000e5ad000-0x000000000e5b6000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem38: type=4, attr=0xf, range=[0x000000000e5b6000-0x000000000e5c2000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem39: type=3, attr=0xf, range=[0x000000000e5c2000-0x000000000e5d0000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem40: type=4, attr=0xf, range=[0x000000000e5d0000-0x000000000e5d3000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem41: type=3, attr=0xf, range=[0x000000000e5d3000-0x000000000e5ec000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem42: type=4, attr=0xf, range=[0x000000000e5ec000-0x000000000e710000) (1MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem43: type=3, attr=0xf, range=[0x000000000e710000-0x000000000e726000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem44: type=4, attr=0xf, range=[0x000000000e726000-0x000000000e728000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem45: type=3, attr=0xf, range=[0x000000000e728000-0x000000000e72f000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem46: type=4, attr=0xf, range=[0x000000000e72f000-0x000000000e734000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem47: type=3, attr=0xf, range=[0x000000000e734000-0x000000000e735000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem48: type=4, attr=0xf, range=[0x000000000e735000-0x000000000e736000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem49: type=3, attr=0xf, range=[0x000000000e736000-0x000000000e752000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem50: type=4, attr=0xf, range=[0x000000000e752000-0x000000000e753000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem51: type=3, attr=0xf, range=[0x000000000e753000-0x000000000e759000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem52: type=4, attr=0xf, range=[0x000000000e759000-0x000000000e774000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem53: type=3, attr=0xf, range=[0x000000000e774000-0x000000000e776000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem54: type=4, attr=0xf, range=[0x000000000e776000-0x000000000e777000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem55: type=3, attr=0xf, range=[0x000000000e777000-0x000000000e77b000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem56: type=4, attr=0xf, range=[0x000000000e77b000-0x000000000e77c000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem57: type=3, attr=0xf, range=[0x000000000e77c000-0x000000000e785000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem58: type=4, attr=0xf, range=[0x000000000e785000-0x000000000e789000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem59: type=3, attr=0xf, range=[0x000000000e789000-0x000000000e78d000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem60: type=4, attr=0xf, range=[0x000000000e78d000-0x000000000e79f000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem61: type=3, attr=0xf, range=[0x000000000e79f000-0x000000000e7a1000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem62: type=4, attr=0xf, range=[0x000000000e7a1000-0x000000000e7a9000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem63: type=3, attr=0xf, range=[0x000000000e7a9000-0x000000000e7af000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem64: type=4, attr=0xf, range=[0x000000000e7af000-0x000000000e7b7000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem65: type=3, attr=0xf, range=[0x000000000e7b7000-0x000000000e7bb000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem66: type=4, attr=0xf, range=[0x000000000e7bb000-0x000000000e7cc000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem67: type=3, attr=0xf, range=[0x000000000e7cc000-0x000000000e7d1000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem68: type=4, attr=0xf, range=[0x000000000e7d1000-0x000000000f0df000) (9MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem69: type=9, attr=0xf, range=[0x000000000f0df000-0x000000000f11f000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem70: type=5, attr=0x800000000000000f, range=[0x000000000f11f000-0x000000000f17f000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem71: type=6, attr=0x800000000000000f, range=[0x000000000f17f000-0x000000000f1df000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem72: type=10, attr=0xf, range=[0x000000000f1df000-0x000000000fedf000) (13MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem73: type=0, attr=0xf, range=[0x000000000fedf000-0x000000000feef000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem74: type=4, attr=0xf, range=[0x000000000feef000-0x000000000fef0000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem75: type=11, attr=0x8000000000000000, range=[0x00000000e0000000-0x00000000f0000000) (256MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem76: type=11, attr=0x8000000000000000, range=[0x00000000fed1c000-0x00000000fed20000) (0MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] efi: mem77: type=11, attr=0x8000000000000001, range=[0x00000000ff800000-0x0000000100000000) (8MB)
+Jan  1 00:11:58 localhost kernel: [    0.000000] e820: update [mem 0x00000000-0x0000ffff] usable ==> reserved
+Jan  1 00:11:58 localhost kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Jan  1 00:11:58 localhost kernel: [    0.000000] e820: last_pfn = 0xfef0 max_arch_pfn = 0x1000000
+Jan  1 00:11:58 localhost kernel: [    0.000000] Scan for SMP in [mem 0x00000000-0x000003ff]
+Jan  1 00:11:58 localhost kernel: [    0.000000] Scan for SMP in [mem 0x0009fc00-0x0009ffff]
+Jan  1 00:11:58 localhost kernel: [    0.000000] Scan for SMP in [mem 0x000f0000-0x000fffff]
+Jan  1 00:11:58 localhost kernel: [    0.000000] Scan for SMP in [mem 0x000aaaa0-0x000aae9f]
+Jan  1 00:11:58 localhost kernel: [    0.000000] initial memory mapped: [mem 0x00000000-0x01ffffff]
+Jan  1 00:11:58 localhost kernel: [    0.000000] Base memory trampoline at [c009b000] 9b000 size 16384
+Jan  1 00:11:58 localhost kernel: [    0.000000] init_memory_mapping: [mem 0x00000000-0x0feeffff]
+Jan  1 00:11:58 localhost kernel: [    0.000000]  [mem 0x00000000-0x001fffff] page 4k
+Jan  1 00:11:58 localhost kernel: [    0.000000]  [mem 0x00200000-0x0fdfffff] page 2M
+Jan  1 00:11:58 localhost kernel: [    0.000000]  [mem 0x0fe00000-0x0feeffff] page 4k
+Jan  1 00:11:58 localhost kernel: [    0.000000] kernel direct mapping tables up to 0xfeeffff @ [mem 0x01ed8000-0x01eddfff]
+Jan  1 00:11:58 localhost kernel: [    0.000000] RAMDISK: [mem 0x0d9df000-0x0db3efff]
+Jan  1 00:11:58 localhost kernel: [    0.000000] ACPI: RSDP 0f11e014 00024 (v02 INTEL )
+Jan  1 00:11:58 localhost kernel: [    0.000000] ACPI: XSDT 0f11d0e8 0006C (v01 INTEL  TIANO    00000003      01000013)
+Jan  1 00:11:58 localhost kernel: [    0.000000] ACPI: FACP 0f11b000 000F4 (v03 INTEL  TIANO    00000003 INTL 0100000D)
+Jan  1 00:11:58 localhost kernel: [    0.000000] ACPI: DSDT 0f113000 015A2 (v01 INTEL  ClantonN 00000003 INTL 20081031)
+Jan  1 00:11:58 localhost kernel: [    0.000000] ACPI: FACS 0f2c7000 00040
+Jan  1 00:11:58 localhost kernel: [    0.000000] ACPI: UEFI 0fcd5000 00042 (v01                 00000000      00000000)
+Jan  1 00:11:58 localhost kernel: [    0.000000] ACPI: APIC 0f11c000 0005A (v01 INTEL  TIANO    00000001 MSFT 00000000)
+Jan  1 00:11:58 localhost kernel: [    0.000000] ACPI: HPET 0f11a000 00038 (v01                 00000001      00000000)
+Jan  1 00:11:58 localhost kernel: [    0.000000] ACPI: MCFG 0f119000 0003C (v01                 00000001      00000000)
+Jan  1 00:11:58 localhost kernel: [    0.000000] ACPI: SSDT 0f118000 004D8 (v01 SsgPmm  Cpu0Cst 00000011 INTL 20081031)
+Jan  1 00:11:58 localhost kernel: [    0.000000] ACPI: SSDT 0f117000 0043F (v01 SsgPmm  Cpu0Ist 00000012 INTL 20081031)
+Jan  1 00:11:58 localhost kernel: [    0.000000] ACPI: SSDT 0f116000 0013B (v01 SsgPmm  Cpu0Tst 00000013 INTL 20081031)
+Jan  1 00:11:58 localhost kernel: [    0.000000] ACPI: SSDT 0f115000 00056 (v01 SsgPmm    CpuPm 00000010 INTL 20081031)
+Jan  1 00:11:58 localhost kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Jan  1 00:11:58 localhost kernel: [    0.000000] mapped APIC to         ffffb000 (        fee00000)
+Jan  1 00:11:58 localhost kernel: [    0.000000] 0MB HIGHMEM available.
+Jan  1 00:11:58 localhost kernel: [    0.000000] 254MB LOWMEM available.
+Jan  1 00:11:58 localhost kernel: [    0.000000]   mapped low ram: 0 - 0fef0000
+Jan  1 00:11:58 localhost kernel: [    0.000000]   low ram: 0 - 0fef0000
+Jan  1 00:11:58 localhost kernel: [    0.000000] Zone ranges:
+Jan  1 00:11:58 localhost kernel: [    0.000000]   Normal   [mem 0x00010000-0x0feeffff]
+Jan  1 00:11:58 localhost kernel: [    0.000000]   HighMem  empty
+Jan  1 00:11:58 localhost kernel: [    0.000000] Movable zone start for each node
+Jan  1 00:11:58 localhost kernel: [    0.000000] Early memory node ranges
+Jan  1 00:11:58 localhost kernel: [    0.000000]   node   0: [mem 0x00010000-0x00096fff]
+Jan  1 00:11:58 localhost kernel: [    0.000000]   node   0: [mem 0x00098000-0x0009ffff]
+Jan  1 00:11:58 localhost kernel: [    0.000000]   node   0: [mem 0x00100000-0x0f0defff]
+Jan  1 00:11:58 localhost kernel: [    0.000000]   node   0: [mem 0x0feef000-0x0feeffff]
+Jan  1 00:11:58 localhost kernel: [    0.000000] On node 0 totalpages: 61551
+Jan  1 00:11:58 localhost kernel: [    0.000000] free_area_init_node: node 0, pgdat c1484720, node_mem_map cdd40200
+Jan  1 00:11:58 localhost kernel: [    0.000000]   Normal zone: 510 pages used for memmap
+Jan  1 00:11:58 localhost kernel: [    0.000000]   Normal zone: 0 pages reserved
+Jan  1 00:11:58 localhost kernel: [    0.000000]   Normal zone: 61041 pages, LIFO batch:15
+Jan  1 00:11:58 localhost kernel: [    0.000000] Using APIC driver default
+Jan  1 00:11:58 localhost kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x1008
+Jan  1 00:11:58 localhost kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Jan  1 00:11:58 localhost kernel: [    0.000000] mapped APIC to         ffffb000 (        fee00000)
+Jan  1 00:11:58 localhost kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x01] lapic_id[0x00] enabled)
+Jan  1 00:11:58 localhost kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+Jan  1 00:11:58 localhost kernel: [    0.000000] ACPI: IOAPIC (id[0x01] address[0xfec00000] gsi_base[0])
+Jan  1 00:11:58 localhost kernel: [    0.000000] IOAPIC[0]: Assigned apic_id 1
+Jan  1 00:11:58 localhost kernel: [    0.000000] IOAPIC[0]: apic_id 1, version 32, address 0xfec00000, GSI 0-23
+Jan  1 00:11:58 localhost kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Jan  1 00:11:58 localhost kernel: [    0.000000] Int: type 0, pol 0, trig 0, bus 00, IRQ 00, APIC ID 1, APIC INT 02
+Jan  1 00:11:58 localhost kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Jan  1 00:11:58 localhost kernel: [    0.000000] Int: type 0, pol 1, trig 3, bus 00, IRQ 09, APIC ID 1, APIC INT 09
+Jan  1 00:11:58 localhost kernel: [    0.000000] ACPI: IRQ0 used by override.
+Jan  1 00:11:58 localhost kernel: [    0.000000] Int: type 0, pol 0, trig 0, bus 00, IRQ 01, APIC ID 1, APIC INT 01
+Jan  1 00:11:58 localhost kernel: [    0.000000] ACPI: IRQ2 used by override.
+Jan  1 00:11:58 localhost kernel: [    0.000000] Int: type 0, pol 0, trig 0, bus 00, IRQ 03, APIC ID 1, APIC INT 03
+Jan  1 00:11:58 localhost kernel: [    0.000000] Int: type 0, pol 0, trig 0, bus 00, IRQ 04, APIC ID 1, APIC INT 04
+Jan  1 00:11:58 localhost kernel: [    0.000000] Int: type 0, pol 0, trig 0, bus 00, IRQ 05, APIC ID 1, APIC INT 05
+Jan  1 00:11:58 localhost kernel: [    0.000000] Int: type 0, pol 0, trig 0, bus 00, IRQ 06, APIC ID 1, APIC INT 06
+Jan  1 00:11:58 localhost kernel: [    0.000000] Int: type 0, pol 0, trig 0, bus 00, IRQ 07, APIC ID 1, APIC INT 07
+Jan  1 00:11:58 localhost kernel: [    0.000000] Int: type 0, pol 0, trig 0, bus 00, IRQ 08, APIC ID 1, APIC INT 08
+Jan  1 00:11:59 localhost kernel: [    0.000000] ACPI: IRQ9 used by override.
+Jan  1 00:11:59 localhost kernel: [    0.000000] Int: type 0, pol 0, trig 0, bus 00, IRQ 0a, APIC ID 1, APIC INT 0a
+Jan  1 00:11:59 localhost kernel: [    0.000000] Int: type 0, pol 0, trig 0, bus 00, IRQ 0b, APIC ID 1, APIC INT 0b
+Jan  1 00:11:59 localhost kernel: [    0.000000] Int: type 0, pol 0, trig 0, bus 00, IRQ 0c, APIC ID 1, APIC INT 0c
+Jan  1 00:11:59 localhost kernel: [    0.000000] Int: type 0, pol 0, trig 0, bus 00, IRQ 0d, APIC ID 1, APIC INT 0d
+Jan  1 00:11:59 localhost kernel: [    0.000000] Int: type 0, pol 0, trig 0, bus 00, IRQ 0e, APIC ID 1, APIC INT 0e
+Jan  1 00:11:59 localhost kernel: [    0.000000] Int: type 0, pol 0, trig 0, bus 00, IRQ 0f, APIC ID 1, APIC INT 0f
+Jan  1 00:11:59 localhost kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Jan  1 00:11:59 localhost kernel: [    0.000000] ACPI: HPET id: 0x8086a201 base: 0xfed00000
+Jan  1 00:11:59 localhost kernel: [    0.000000] mapped IOAPIC to ffffa000 (fec00000)
+Jan  1 00:11:59 localhost kernel: [    0.000000] nr_irqs_gsi: 40
+Jan  1 00:11:59 localhost kernel: [    0.000000] e820: [mem 0x0fef0000-0xdfffffff] available for PCI devices
+Jan  1 00:11:59 localhost kernel: [    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Jan  1 00:11:59 localhost kernel: [    0.000000] pcpu-alloc: [0] 0 
+Jan  1 00:11:59 localhost kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 61041
+Jan  1 00:11:59 localhost kernel: [    0.000000] Kernel command line: root=/dev/ram0 console=ttyS1,115200n8 earlycon=uart8250,mmio32,0x8010f000,115200n8 reboot=efi,warm apic=debug rw LABEL=boot debugshell=5 efi_main=0x000000013e8c4807 jmp_code32=0x000000017643a06b
+Jan  1 00:11:59 localhost kernel: [    0.000000] PID hash table entries: 1024 (order: 0, 4096 bytes)
+Jan  1 00:11:59 localhost kernel: [    0.000000] Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+Jan  1 00:11:59 localhost kernel: [    0.000000] Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+Jan  1 00:11:59 localhost kernel: [    0.000000] __ex_table already sorted, skipping sort
+Jan  1 00:11:59 localhost kernel: [    0.000000] Initializing CPU#0
+Jan  1 00:11:59 localhost kernel: [    0.000000] Initializing HighMem for node 0 (00000000:00000000)
+Jan  1 00:11:59 localhost kernel: [    0.000000] Memory: 213068k/261056k available (3098k kernel code, 33136k reserved, 1547k data, 272k init, 0k highmem)
+Jan  1 00:11:59 localhost kernel: [    0.000000] virtual kernel memory layout:
+Jan  1 00:11:59 localhost kernel: [    0.000000]     fixmap  : 0xfffa2000 - 0xfffff000   ( 372 kB)
+Jan  1 00:11:59 localhost kernel: [    0.000000]     pkmap   : 0xffc00000 - 0xffe00000   (2048 kB)
+Jan  1 00:11:59 localhost kernel: [    0.000000]     vmalloc : 0xd06f0000 - 0xffbfe000   ( 757 MB)
+Jan  1 00:11:59 localhost kernel: [    0.000000]     lowmem  : 0xc0000000 - 0xcfef0000   ( 254 MB)
+Jan  1 00:11:59 localhost kernel: [    0.000000]       .init : 0xc148a000 - 0xc14ce000   ( 272 kB)
+Jan  1 00:11:59 localhost kernel: [    0.000000]       .data : 0xc1306812 - 0xc1489480   (1547 kB)
+Jan  1 00:11:59 localhost kernel: [    0.000000]       .text : 0xc1000000 - 0xc1306812   (3098 kB)
+Jan  1 00:11:59 localhost kernel: [    0.000000] Checking if this processor honours the WP bit even in supervisor mode...Ok.
+Jan  1 00:11:59 localhost kernel: [    0.000000] SLUB: Genslabs=15, HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Jan  1 00:11:59 localhost kernel: [    0.000000] NR_IRQS:2304 nr_irqs:256 16
+Jan  1 00:11:59 localhost kernel: [    0.000000] CPU 0 irqstacks, hard=c0090000 soft=c0092000
+Jan  1 00:11:59 localhost kernel: [    0.000000] spurious 8259A interrupt: IRQ7.
+Jan  1 00:11:59 localhost kernel: [    0.000000] Console: colour dummy device 80x25
+Jan  1 00:11:59 localhost kernel: [    0.000000] Lock dependency validator: Copyright (c) 2006 Red Hat, Inc., Ingo Molnar
+Jan  1 00:11:59 localhost kernel: [    0.000000] ... MAX_LOCKDEP_SUBCLASSES:  8
+Jan  1 00:11:59 localhost kernel: [    0.000000] ... MAX_LOCK_DEPTH:          48
+Jan  1 00:11:59 localhost kernel: [    0.000000] ... MAX_LOCKDEP_KEYS:        8191
+Jan  1 00:11:59 localhost kernel: [    0.000000] ... CLASSHASH_SIZE:          4096
+Jan  1 00:11:59 localhost kernel: [    0.000000] ... MAX_LOCKDEP_ENTRIES:     16384
+Jan  1 00:11:59 localhost kernel: [    0.000000] ... MAX_LOCKDEP_CHAINS:      32768
+Jan  1 00:11:59 localhost kernel: [    0.000000] ... CHAINHASH_SIZE:          16384
+Jan  1 00:11:59 localhost kernel: [    0.000000]  memory used by lock dependency info: 3567 kB
+Jan  1 00:11:59 localhost kernel: [    0.000000]  per task-struct memory footprint: 1152 bytes
+Jan  1 00:11:59 localhost kernel: [    0.000000] hpet clockevent registered
+Jan  1 00:11:59 localhost kernel: [    0.000000] tsc: Fast TSC calibration using PIT
+Jan  1 00:11:59 localhost kernel: [    0.000000] tsc: Detected 399.088 MHz processor
+Jan  1 00:11:59 localhost kernel: [    0.010015] Calibrating delay loop (skipped), value calculated using timer frequency.. 798.17 BogoMIPS (lpj=3990880)
+Jan  1 00:11:59 localhost kernel: [    0.010136] pid_max: default: 32768 minimum: 301
+Jan  1 00:11:59 localhost kernel: [    0.408063] Security Framework initialized
+Jan  1 00:11:59 localhost kernel: [    0.408336] Mount-cache hash table entries: 512
+Jan  1 00:11:59 localhost kernel: [    0.417566] Initializing cgroup subsys cpuacct
+Jan  1 00:11:59 localhost kernel: [    0.417736] Initializing cgroup subsys freezer
+Jan  1 00:11:59 localhost kernel: [    0.418536] Intel Pentium with F0 0F bug - workaround enabled.
+Jan  1 00:11:59 localhost kernel: [    0.418795] Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+Jan  1 00:11:59 localhost kernel: [    0.418795] Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0
+Jan  1 00:11:59 localhost kernel: [    0.418795] tlb_flushall_shift: 6
+Jan  1 00:11:59 localhost kernel: [    0.418938] CPU: Intel 05/09 (fam: 05, model: 09, stepping: 00)
+Jan  1 00:11:59 localhost kernel: [    0.419173] ACPI: Core revision 20121018
+Jan  1 00:11:59 localhost kernel: [    0.510385] Performance Events: no PMU driver, software events only.
+Jan  1 00:11:59 localhost kernel: [    0.515309] Enabling APIC mode:  Flat.  Using 1 I/O APICs
+Jan  1 00:11:59 localhost kernel: [    0.515389] Getting VERSION: 30010
+Jan  1 00:11:59 localhost kernel: [    0.515444] Getting VERSION: 30010
+Jan  1 00:11:59 localhost kernel: [    0.515497] Getting ID: 0
+Jan  1 00:11:59 localhost kernel: [    0.515544] Getting ID: f000000
+Jan  1 00:11:59 localhost kernel: [    0.515596] Getting LVT0: 700
+Jan  1 00:11:59 localhost kernel: [    0.515647] Getting LVT1: 400
+Jan  1 00:11:59 localhost kernel: [    0.515715] enabled ExtINT on CPU#0
+Jan  1 00:11:59 localhost kernel: [    0.516109] ENABLING IO-APIC IRQs
+Jan  1 00:11:59 localhost kernel: [    0.516164] Synchronizing Arb IDs.
+Jan  1 00:11:59 localhost kernel: [    0.516214] init IO_APIC IRQs
+Jan  1 00:11:59 localhost kernel: [    0.516246]  apic 1 pin 0 not connected
+Jan  1 00:11:59 localhost kernel: [    0.516550] IOAPIC[0]: Set routing entry (1-1 -> 0x31 -> IRQ 1 Mode:0 Active:0 Dest:1)
+Jan  1 00:11:59 localhost kernel: [    0.516670] IOAPIC[0]: Set routing entry (1-2 -> 0x30 -> IRQ 0 Mode:0 Active:0 Dest:1)
+Jan  1 00:11:59 localhost kernel: [    0.516780] IOAPIC[0]: Set routing entry (1-3 -> 0x33 -> IRQ 3 Mode:0 Active:0 Dest:1)
+Jan  1 00:11:59 localhost kernel: [    0.516890] IOAPIC[0]: Set routing entry (1-4 -> 0x34 -> IRQ 4 Mode:0 Active:0 Dest:1)
+Jan  1 00:11:59 localhost kernel: [    0.517001] IOAPIC[0]: Set routing entry (1-5 -> 0x35 -> IRQ 5 Mode:0 Active:0 Dest:1)
+Jan  1 00:11:59 localhost kernel: [    0.517111] IOAPIC[0]: Set routing entry (1-6 -> 0x36 -> IRQ 6 Mode:0 Active:0 Dest:1)
+Jan  1 00:11:59 localhost kernel: [    0.517220] IOAPIC[0]: Set routing entry (1-7 -> 0x37 -> IRQ 7 Mode:0 Active:0 Dest:1)
+Jan  1 00:11:59 localhost kernel: [    0.517330] IOAPIC[0]: Set routing entry (1-8 -> 0x38 -> IRQ 8 Mode:0 Active:0 Dest:1)
+Jan  1 00:11:59 localhost kernel: [    0.517439] IOAPIC[0]: Set routing entry (1-9 -> 0x39 -> IRQ 9 Mode:1 Active:0 Dest:1)
+Jan  1 00:11:59 localhost kernel: [    0.517548] IOAPIC[0]: Set routing entry (1-10 -> 0x3a -> IRQ 10 Mode:0 Active:0 Dest:1)
+Jan  1 00:11:59 localhost kernel: [    0.517657] IOAPIC[0]: Set routing entry (1-11 -> 0x3b -> IRQ 11 Mode:0 Active:0 Dest:1)
+Jan  1 00:11:59 localhost kernel: [    0.517767] IOAPIC[0]: Set routing entry (1-12 -> 0x3c -> IRQ 12 Mode:0 Active:0 Dest:1)
+Jan  1 00:11:59 localhost kernel: [    0.517876] IOAPIC[0]: Set routing entry (1-13 -> 0x3d -> IRQ 13 Mode:0 Active:0 Dest:1)
+Jan  1 00:11:59 localhost kernel: [    0.517987] IOAPIC[0]: Set routing entry (1-14 -> 0x3e -> IRQ 14 Mode:0 Active:0 Dest:1)
+Jan  1 00:11:59 localhost kernel: [    0.518097] IOAPIC[0]: Set routing entry (1-15 -> 0x3f -> IRQ 15 Mode:0 Active:0 Dest:1)
+Jan  1 00:11:59 localhost kernel: [    0.518175]  apic 1 pin 16 not connected
+Jan  1 00:11:59 localhost kernel: [    0.518211]  apic 1 pin 17 not connected
+Jan  1 00:11:59 localhost kernel: [    0.518240]  apic 1 pin 18 not connected
+Jan  1 00:11:59 localhost kernel: [    0.518267]  apic 1 pin 19 not connected
+Jan  1 00:11:59 localhost kernel: [    0.518294]  apic 1 pin 20 not connected
+Jan  1 00:11:59 localhost kernel: [    0.518321]  apic 1 pin 21 not connected
+Jan  1 00:11:59 localhost kernel: [    0.518348]  apic 1 pin 22 not connected
+Jan  1 00:11:59 localhost kernel: [    0.518375]  apic 1 pin 23 not connected
+Jan  1 00:11:59 localhost kernel: [    0.518566] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Jan  1 00:11:59 localhost kernel: [    0.618790] Using local APIC timer interrupts.
+Jan  1 00:11:59 localhost kernel: [    0.618790] calibrating APIC timer ...
+Jan  1 00:11:59 localhost kernel: [    0.620000] ... lapic delta = 2494191
+Jan  1 00:11:59 localhost kernel: [    0.620000] ... PM-Timer delta = 357949
+Jan  1 00:11:59 localhost kernel: [    0.620000] ... PM-Timer result ok
+Jan  1 00:11:59 localhost kernel: [    0.620000] ..... delta 2494191
+Jan  1 00:11:59 localhost kernel: [    0.620000] ..... mult: 107124687
+Jan  1 00:11:59 localhost kernel: [    0.620000] ..... calibration result: 3990705
+Jan  1 00:11:59 localhost kernel: [    0.620000] ..... CPU clock speed is 399.0706 MHz.
+Jan  1 00:11:59 localhost kernel: [    0.620000] ..... host bus clock speed is 399.0705 MHz.
+Jan  1 00:11:59 localhost kernel: [    0.620000] devtmpfs: initialized
+Jan  1 00:11:59 localhost kernel: [    0.623256] PM: Registering ACPI NVS region [mem 0x0f1df000-0x0fedefff] (13631488 bytes)
+Jan  1 00:11:59 localhost kernel: [    0.629303] RTC time:  0:10:18, date: 01/01/01
+Jan  1 00:11:59 localhost kernel: [    0.632063] NET: Registered protocol family 16
+Jan  1 00:11:59 localhost kernel: [    0.658034] ACPI: bus type pci registered
+Jan  1 00:11:59 localhost kernel: [    0.660577] PCI: MMCONFIG for domain 0000 [bus 00-ff] at [mem 0xe0000000-0xefffffff] (base 0xe0000000)
+Jan  1 00:11:59 localhost kernel: [    0.660698] PCI: MMCONFIG at [mem 0xe0000000-0xefffffff] reserved in E820
+Jan  1 00:11:59 localhost kernel: [    0.660777] PCI: Using MMCONFIG for extended config space
+Jan  1 00:11:59 localhost kernel: [    0.660848] PCI: Using configuration type 1 for base access
+Jan  1 00:11:59 localhost kernel: [    0.810224] bio: create slab <bio-0> at 0
+Jan  1 00:11:59 localhost kernel: [    0.814825] ACPI: Added _OSI(Module Device)
+Jan  1 00:11:59 localhost kernel: [    0.814920] ACPI: Added _OSI(Processor Device)
+Jan  1 00:11:59 localhost kernel: [    0.815003] ACPI: Added _OSI(3.0 _SCP Extensions)
+Jan  1 00:11:59 localhost kernel: [    0.815089] ACPI: Added _OSI(Processor Aggregator Device)
+Jan  1 00:11:59 localhost kernel: [    0.834995] ACPI: EC: Look up EC in DSDT
+Jan  1 00:11:59 localhost kernel: [    0.898232] [Firmware Bug]: ACPI: BIOS _OSI(Linux) query ignored
+Jan  1 00:11:59 localhost kernel: [    0.906425] ACPI: Interpreter enabled
+Jan  1 00:11:59 localhost kernel: [    0.906491] ACPI: (supports S0 S3 S5)
+Jan  1 00:11:59 localhost kernel: [    0.907318] ACPI: Using IOAPIC for interrupt routing
+Jan  1 00:11:59 localhost kernel: [    1.071228] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Jan  1 00:11:59 localhost kernel: [    1.076855] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Jan  1 00:11:59 localhost kernel: [    1.077020] ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+Jan  1 00:11:59 localhost kernel: [    1.097170] PCI host bridge to bus 0000:00
+Jan  1 00:11:59 localhost kernel: [    1.097289] pci_bus 0000:00: root bus resource [bus 00-ff]
+Jan  1 00:11:59 localhost kernel: [    1.097387] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7]
+Jan  1 00:11:59 localhost kernel: [    1.097484] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff]
+Jan  1 00:11:59 localhost kernel: [    1.097581] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff]
+Jan  1 00:11:59 localhost kernel: [    1.097683] pci_bus 0000:00: root bus resource [mem 0x10000000-0xfebfffff]
+Jan  1 00:11:59 localhost kernel: [    1.097946] pci_bus 0000:00: scanning bus
+Jan  1 00:11:59 localhost kernel: [    1.098659] pci 0000:00:00.0: [8086:0958] type 00 class 0x060000
+Jan  1 00:11:59 localhost kernel: [    1.098787] pci 0000:00:00.0: calling quirk_mmio_always_on+0x0/0x10
+Jan  1 00:11:59 localhost kernel: [    1.100751] pci 0000:00:14.0: [8086:08a7] type 00 class 0x080501
+Jan  1 00:11:59 localhost kernel: [    1.100946] pci 0000:00:14.0: reg 10: [mem 0x90010000-0x90010fff]
+Jan  1 00:11:59 localhost kernel: [    1.101601] pci 0000:00:14.0: PME# supported from D0 D3hot
+Jan  1 00:11:59 localhost kernel: [    1.102154] pci 0000:00:14.0: PME# disabled
+Jan  1 00:11:59 localhost kernel: [    1.102427] pci 0000:00:14.1: [8086:0936] type 00 class 0x070002
+Jan  1 00:11:59 localhost kernel: [    1.102614] pci 0000:00:14.1: reg 10: [mem 0x9000f000-0x9000ffff]
+Jan  1 00:11:59 localhost kernel: [    1.102735] pci 0000:00:14.1: reg 14: [mem 0x9000e000-0x9000efff]
+Jan  1 00:11:59 localhost kernel: [    1.103336] pci 0000:00:14.1: PME# supported from D0 D3hot
+Jan  1 00:11:59 localhost kernel: [    1.103426] pci 0000:00:14.1: PME# disabled
+Jan  1 00:11:59 localhost kernel: [    1.103685] pci 0000:00:14.2: [8086:0939] type 00 class 0x0c03fe
+Jan  1 00:11:59 localhost kernel: [    1.103871] pci 0000:00:14.2: reg 10: [mem 0x90004000-0x90005fff]
+Jan  1 00:11:59 localhost kernel: [    1.104522] pci 0000:00:14.2: PME# supported from D0 D3hot
+Jan  1 00:11:59 localhost kernel: [    1.104611] pci 0000:00:14.2: PME# disabled
+Jan  1 00:11:59 localhost kernel: [    1.104884] pci 0000:00:14.3: [8086:0939] type 00 class 0x0c0320
+Jan  1 00:11:59 localhost kernel: [    1.105086] pci 0000:00:14.3: reg 10: [mem 0x9000d000-0x9000dfff]
+Jan  1 00:11:59 localhost kernel: [    1.105778] pci 0000:00:14.3: PME# supported from D0 D1 D2 D3hot D3cold
+Jan  1 00:11:59 localhost kernel: [    1.105869] pci 0000:00:14.3: PME# disabled
+Jan  1 00:11:59 localhost kernel: [    1.106141] pci 0000:00:14.4: [8086:093a] type 00 class 0x0c0310
+Jan  1 00:11:59 localhost kernel: [    1.106327] pci 0000:00:14.4: reg 10: [mem 0x9000c000-0x9000cfff]
+Jan  1 00:11:59 localhost kernel: [    1.106979] pci 0000:00:14.4: PME# supported from D0 D3hot
+Jan  1 00:11:59 localhost kernel: [    1.107067] pci 0000:00:14.4: PME# disabled
+Jan  1 00:11:59 localhost kernel: [    1.107329] pci 0000:00:14.5: [8086:0936] type 00 class 0x070002
+Jan  1 00:11:59 localhost kernel: [    1.107515] pci 0000:00:14.5: reg 10: [mem 0x9000b000-0x9000bfff]
+Jan  1 00:11:59 localhost kernel: [    1.107637] pci 0000:00:14.5: reg 14: [mem 0x9000a000-0x9000afff]
+Jan  1 00:11:59 localhost kernel: [    1.108240] pci 0000:00:14.5: PME# supported from D0 D3hot
+Jan  1 00:11:59 localhost kernel: [    1.108330] pci 0000:00:14.5: PME# disabled
+Jan  1 00:11:59 localhost kernel: [    1.108590] pci 0000:00:14.6: [8086:0937] type 00 class 0x020000
+Jan  1 00:11:59 localhost kernel: [    1.108776] pci 0000:00:14.6: reg 10: [mem 0x90002000-0x90003fff]
+Jan  1 00:11:59 localhost kernel: [    1.109428] pci 0000:00:14.6: PME# supported from D0 D3hot
+Jan  1 00:11:59 localhost kernel: [    1.109516] pci 0000:00:14.6: PME# disabled
+Jan  1 00:11:59 localhost kernel: [    1.109815] pci 0000:00:14.7: [8086:0937] type 00 class 0x020000
+Jan  1 00:11:59 localhost kernel: [    1.110107] pci 0000:00:14.7: reg 10: [mem 0x90000000-0x90001fff]
+Jan  1 00:11:59 localhost kernel: [    1.110766] pci 0000:00:14.7: PME# supported from D0 D3hot
+Jan  1 00:11:59 localhost kernel: [    1.110856] pci 0000:00:14.7: PME# disabled
+Jan  1 00:11:59 localhost kernel: [    1.111118] pci 0000:00:15.0: [8086:0935] type 00 class 0x0c8000
+Jan  1 00:11:59 localhost kernel: [    1.111305] pci 0000:00:15.0: reg 10: [mem 0x90009000-0x90009fff]
+Jan  1 00:11:59 localhost kernel: [    1.111956] pci 0000:00:15.0: PME# supported from D0 D3hot
+Jan  1 00:11:59 localhost kernel: [    1.112045] pci 0000:00:15.0: PME# disabled
+Jan  1 00:11:59 localhost kernel: [    1.112307] pci 0000:00:15.1: [8086:0935] type 00 class 0x0c8000
+Jan  1 00:11:59 localhost kernel: [    1.112494] pci 0000:00:15.1: reg 10: [mem 0x90008000-0x90008fff]
+Jan  1 00:11:59 localhost kernel: [    1.113147] pci 0000:00:15.1: PME# supported from D0 D3hot
+Jan  1 00:11:59 localhost kernel: [    1.113237] pci 0000:00:15.1: PME# disabled
+Jan  1 00:11:59 localhost kernel: [    1.113497] pci 0000:00:15.2: [8086:0934] type 00 class 0x0c8000
+Jan  1 00:11:59 localhost kernel: [    1.113682] pci 0000:00:15.2: reg 10: [mem 0x90007000-0x90007fff]
+Jan  1 00:11:59 localhost kernel: [    1.113802] pci 0000:00:15.2: reg 14: [mem 0x90006000-0x90006fff]
+Jan  1 00:11:59 localhost kernel: [    1.114404] pci 0000:00:15.2: PME# supported from D0 D3hot
+Jan  1 00:11:59 localhost kernel: [    1.114493] pci 0000:00:15.2: PME# disabled
+Jan  1 00:11:59 localhost kernel: [    1.114814] pci 0000:00:17.0: [8086:11c3] type 01 class 0x060400
+Jan  1 00:11:59 localhost kernel: [    1.115214] pci 0000:00:17.0: calling pci_fixup_transparent_bridge+0x0/0x30
+Jan  1 00:11:59 localhost kernel: [    1.115599] pci 0000:00:17.0: PME# supported from D0 D3hot D3cold
+Jan  1 00:11:59 localhost kernel: [    1.115685] pci 0000:00:17.0: PME# disabled
+Jan  1 00:11:59 localhost kernel: [    1.115968] pci 0000:00:17.1: [8086:11c4] type 01 class 0x060400
+Jan  1 00:11:59 localhost kernel: [    1.116364] pci 0000:00:17.1: calling pci_fixup_transparent_bridge+0x0/0x30
+Jan  1 00:11:59 localhost kernel: [    1.116749] pci 0000:00:17.1: PME# supported from D0 D3hot D3cold
+Jan  1 00:11:59 localhost kernel: [    1.116836] pci 0000:00:17.1: PME# disabled
+Jan  1 00:11:59 localhost kernel: [    1.117235] pci 0000:00:1f.0: [8086:095e] type 00 class 0x060100
+Jan  1 00:11:59 localhost kernel: [    1.117800] pci_bus 0000:00: fixups for bus
+Jan  1 00:11:59 localhost kernel: [    1.117882] pci 0000:00:17.0: scanning [bus 01-01] behind bridge, pass 0
+Jan  1 00:11:59 localhost kernel: [    1.118265] pci_bus 0000:01: scanning bus
+Jan  1 00:11:59 localhost kernel: [    1.118340] pci_bus 0000:01: fixups for bus
+Jan  1 00:11:59 localhost kernel: [    1.118394] pci 0000:00:17.0: PCI bridge to [bus 01]
+Jan  1 00:11:59 localhost kernel: [    1.118545] pci_bus 0000:01: bus scan returning with max=01
+Jan  1 00:11:59 localhost kernel: [    1.118628] pci 0000:00:17.1: scanning [bus 02-02] behind bridge, pass 0
+Jan  1 00:11:59 localhost kernel: [    1.119044] pci_bus 0000:02: scanning bus
+Jan  1 00:11:59 localhost kernel: [    1.119120] pci_bus 0000:02: fixups for bus
+Jan  1 00:11:59 localhost kernel: [    1.119173] pci 0000:00:17.1: PCI bridge to [bus 02]
+Jan  1 00:11:59 localhost kernel: [    1.119324] pci_bus 0000:02: bus scan returning with max=02
+Jan  1 00:11:59 localhost kernel: [    1.119410] pci 0000:00:17.0: scanning [bus 01-01] behind bridge, pass 1
+Jan  1 00:11:59 localhost kernel: [    1.119500] pci 0000:00:17.1: scanning [bus 02-02] behind bridge, pass 1
+Jan  1 00:11:59 localhost kernel: [    1.119578] pci_bus 0000:00: bus scan returning with max=02
+Jan  1 00:11:59 localhost kernel: [    1.119627] pci_bus 0000:00: on NUMA node 0
+Jan  1 00:11:59 localhost kernel: [    1.120387] ACPI: PCI Interrupt Routing Table [\_SB_.PCI0.PEX0._PRT]
+Jan  1 00:11:59 localhost kernel: [    1.122936] ACPI: PCI Interrupt Routing Table [\_SB_.PCI0.PEX1._PRT]
+Jan  1 00:11:59 localhost kernel: [    1.129080]  pci0000:00: ACPI _OSC support notification failed, disabling PCIe ASPM
+Jan  1 00:11:59 localhost kernel: [    1.129186]  pci0000:00: Unable to request _OSC control (_OSC support mask: 0x08)
+Jan  1 00:11:59 localhost kernel: [    1.195953] ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 7 9 10 11 12) *0, disabled.
+Jan  1 00:11:59 localhost kernel: [    1.199908] ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 7 9 10 11 12) *0, disabled.
+Jan  1 00:11:59 localhost kernel: [    1.204425] ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 7 9 10 11 12) *0, disabled.
+Jan  1 00:11:59 localhost kernel: [    1.208371] ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 7 9 10 11 12) *0, disabled.
+Jan  1 00:11:59 localhost kernel: [    1.212430] ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 5 7 9 10 11 12) *0, disabled.
+Jan  1 00:11:59 localhost kernel: [    1.216386] ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 7 9 10 11 12) *0, disabled.
+Jan  1 00:11:59 localhost kernel: [    1.220496] ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 5 7 9 10 11 12) *0, disabled.
+Jan  1 00:11:59 localhost kernel: [    1.224447] ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 7 9 10 11 12) *0, disabled.
+Jan  1 00:11:59 localhost kernel: [    1.235875] vgaarb: loaded
+Jan  1 00:11:59 localhost kernel: [    1.241494] SCSI subsystem initialized
+Jan  1 00:11:59 localhost kernel: [    1.253676] PCI: Using ACPI for IRQ routing
+Jan  1 00:11:59 localhost kernel: [    1.282574] PCI: pci_cache_line_size set to 32 bytes
+Jan  1 00:11:59 localhost kernel: [    1.282728] pci 0000:00:14.0: BAR 0: reserving [mem 0x90010000-0x90010fff flags 0x40200] (d=0, p=0)
+Jan  1 00:11:59 localhost kernel: [    1.282840] pci 0000:00:14.1: BAR 0: reserving [mem 0x9000f000-0x9000ffff flags 0x40200] (d=0, p=0)
+Jan  1 00:11:59 localhost kernel: [    1.282917] pci 0000:00:14.1: BAR 1: reserving [mem 0x9000e000-0x9000efff flags 0x40200] (d=0, p=0)
+Jan  1 00:11:59 localhost kernel: [    1.283018] pci 0000:00:14.2: BAR 0: reserving [mem 0x90004000-0x90005fff flags 0x40200] (d=0, p=0)
+Jan  1 00:11:59 localhost kernel: [    1.283123] pci 0000:00:14.3: BAR 0: reserving [mem 0x9000d000-0x9000dfff flags 0x40200] (d=0, p=0)
+Jan  1 00:11:59 localhost kernel: [    1.283228] pci 0000:00:14.4: BAR 0: reserving [mem 0x9000c000-0x9000cfff flags 0x40200] (d=0, p=0)
+Jan  1 00:11:59 localhost kernel: [    1.283334] pci 0000:00:14.5: BAR 0: reserving [mem 0x9000b000-0x9000bfff flags 0x40200] (d=0, p=0)
+Jan  1 00:11:59 localhost kernel: [    1.283411] pci 0000:00:14.5: BAR 1: reserving [mem 0x9000a000-0x9000afff flags 0x40200] (d=0, p=0)
+Jan  1 00:11:59 localhost kernel: [    1.283572] pci 0000:00:15.2: BAR 0: reserving [mem 0x90007000-0x90007fff flags 0x40200] (d=0, p=0)
+Jan  1 00:11:59 localhost kernel: [    1.283650] pci 0000:00:15.2: BAR 1: reserving [mem 0x90006000-0x90006fff flags 0x40200] (d=0, p=0)
+Jan  1 00:11:59 localhost kernel: [    1.283901] pci 0000:00:14.6: BAR 0: reserving [mem 0x90002000-0x90003fff flags 0x40200] (d=1, p=1)
+Jan  1 00:11:59 localhost kernel: [    1.284006] pci 0000:00:14.7: BAR 0: reserving [mem 0x90000000-0x90001fff flags 0x40200] (d=1, p=1)
+Jan  1 00:11:59 localhost kernel: [    1.284111] pci 0000:00:15.0: BAR 0: reserving [mem 0x90009000-0x90009fff flags 0x40200] (d=1, p=1)
+Jan  1 00:11:59 localhost kernel: [    1.284216] pci 0000:00:15.1: BAR 0: reserving [mem 0x90008000-0x90008fff flags 0x40200] (d=1, p=1)
+Jan  1 00:11:59 localhost kernel: [    1.284378] e820: reserve RAM buffer [mem 0x00097000-0x0009ffff]
+Jan  1 00:11:59 localhost kernel: [    1.284439] e820: reserve RAM buffer [mem 0x0f0df000-0x0fffffff]
+Jan  1 00:11:59 localhost kernel: [    1.284494] e820: reserve RAM buffer [mem 0x0fef0000-0x0fffffff]
+Jan  1 00:11:59 localhost kernel: [    1.294508] HPET: 3 timers in total, 0 timers will be used for per-cpu timer
+Jan  1 00:11:59 localhost kernel: [    1.294624] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+Jan  1 00:11:59 localhost kernel: [    1.294734] hpet0: 3 comparators, 64-bit 14.318180 MHz counter
+Jan  1 00:11:59 localhost kernel: [    1.298680] Switching to clocksource hpet
+Jan  1 00:11:59 localhost kernel: [    1.298680] pnp: PnP ACPI init
+Jan  1 00:11:59 localhost kernel: [    1.298680] ACPI: bus type pnp registered
+Jan  1 00:11:59 localhost kernel: [    1.302015] system 00:00: [mem 0xe0000000-0xefffffff] has been reserved
+Jan  1 00:11:59 localhost kernel: [    1.302150] system 00:00: [mem 0xfed1c000-0xfed1ffff] has been reserved
+Jan  1 00:11:59 localhost kernel: [    1.302272] system 00:00: [mem 0x000c0000-0x000dffff] has been reserved
+Jan  1 00:11:59 localhost kernel: [    1.302401] system 00:00: [mem 0x000e0000-0x000fffff] could not be reserved
+Jan  1 00:11:59 localhost kernel: [    1.302528] system 00:00: [mem 0xff800000-0xffffffff] has been reserved
+Jan  1 00:11:59 localhost kernel: [    1.303087] system 00:00: Plug and Play ACPI device, IDs PNP0c02 (active)
+Jan  1 00:11:59 localhost kernel: [    1.315467] pnp 00:01: Plug and Play ACPI device, IDs PNP0b00 (active)
+Jan  1 00:11:59 localhost kernel: [    1.318198] pnp 00:02: Plug and Play ACPI device, IDs PNP0800 (active)
+Jan  1 00:11:59 localhost kernel: [    1.332230] system 00:03: [io  0x1000-0x100f] has been reserved
+Jan  1 00:11:59 localhost kernel: [    1.332358] system 00:03: [io  0x1010-0x101f] has been reserved
+Jan  1 00:11:59 localhost kernel: [    1.332478] system 00:03: [io  0x1100-0x113f] has been reserved
+Jan  1 00:11:59 localhost kernel: [    1.332599] system 00:03: [io  0x1080-0x10bf] has been reserved
+Jan  1 00:11:59 localhost kernel: [    1.332721] system 00:03: [io  0x1040-0x107f] has been reserved
+Jan  1 00:11:59 localhost kernel: [    1.332843] system 00:03: [io  0x1020-0x103f] has been reserved
+Jan  1 00:11:59 localhost kernel: [    1.332965] system 00:03: [io  0x1140-0x117f] has been reserved
+Jan  1 00:11:59 localhost kernel: [    1.333130] system 00:03: Plug and Play ACPI device, IDs PNP0c02 (active)
+Jan  1 00:11:59 localhost kernel: [    1.336659] IOAPIC[0]: Set routing entry (1-8 -> 0x38 -> IRQ 8 Mode:0 Active:0 Dest:1)
+Jan  1 00:11:59 localhost kernel: [    1.339075] pnp 00:04: Plug and Play ACPI device, IDs PNP0103 (active)
+Jan  1 00:11:59 localhost kernel: [    1.343265] pnp 00:05: Plug and Play ACPI device, IDs PNP0003 (active)
+Jan  1 00:11:59 localhost kernel: [    1.343524] pnp: PnP ACPI: found 6 devices
+Jan  1 00:11:59 localhost kernel: [    1.343602] ACPI: ACPI bus type pnp unregistered
+Jan  1 00:11:59 localhost kernel: [    1.560744] pci 0000:00:17.0: bridge window [io  0x1000-0x0fff] to [bus 01] add_size 1000
+Jan  1 00:11:59 localhost kernel: [    1.560832] pci 0000:00:17.0: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 01] add_size 200000
+Jan  1 00:11:59 localhost kernel: [    1.560905] pci 0000:00:17.0: bridge window [mem 0x00100000-0x000fffff] to [bus 01] add_size 200000
+Jan  1 00:11:59 localhost kernel: [    1.561035] pci 0000:00:17.1: bridge window [io  0x1000-0x0fff] to [bus 02] add_size 1000
+Jan  1 00:11:59 localhost kernel: [    1.561111] pci 0000:00:17.1: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 02] add_size 200000
+Jan  1 00:11:59 localhost kernel: [    1.561183] pci 0000:00:17.1: bridge window [mem 0x00100000-0x000fffff] to [bus 02] add_size 200000
+Jan  1 00:11:59 localhost kernel: [    1.561314] pci 0000:00:17.0: res[8]=[mem 0x00100000-0x000fffff] get_res_add_size add_size 200000
+Jan  1 00:11:59 localhost kernel: [    1.561378] pci 0000:00:17.0: res[9]=[mem 0x00100000-0x000fffff 64bit pref] get_res_add_size add_size 200000
+Jan  1 00:11:59 localhost kernel: [    1.561435] pci 0000:00:17.1: res[8]=[mem 0x00100000-0x000fffff] get_res_add_size add_size 200000
+Jan  1 00:11:59 localhost kernel: [    1.561494] pci 0000:00:17.1: res[9]=[mem 0x00100000-0x000fffff 64bit pref] get_res_add_size add_size 200000
+Jan  1 00:11:59 localhost kernel: [    1.561551] pci 0000:00:17.0: res[7]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+Jan  1 00:11:59 localhost kernel: [    1.561607] pci 0000:00:17.1: res[7]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+Jan  1 00:11:59 localhost kernel: [    1.561701] pci 0000:00:17.0: BAR 8: assigned [mem 0x10000000-0x101fffff]
+Jan  1 00:11:59 localhost kernel: [    1.561840] pci 0000:00:17.0: BAR 9: assigned [mem 0x10200000-0x103fffff 64bit pref]
+Jan  1 00:11:59 localhost kernel: [    1.561981] pci 0000:00:17.1: BAR 8: assigned [mem 0x10400000-0x105fffff]
+Jan  1 00:11:59 localhost kernel: [    1.562118] pci 0000:00:17.1: BAR 9: assigned [mem 0x10600000-0x107fffff 64bit pref]
+Jan  1 00:11:59 localhost kernel: [    1.562266] pci 0000:00:17.0: BAR 7: assigned [io  0x2000-0x2fff]
+Jan  1 00:11:59 localhost kernel: [    1.562401] pci 0000:00:17.1: BAR 7: assigned [io  0x3000-0x3fff]
+Jan  1 00:11:59 localhost kernel: [    1.562535] pci 0000:00:17.0: PCI bridge to [bus 01]
+Jan  1 00:11:59 localhost kernel: [    1.562646] pci 0000:00:17.0:   bridge window [io  0x2000-0x2fff]
+Jan  1 00:11:59 localhost kernel: [    1.562774] pci 0000:00:17.0:   bridge window [mem 0x10000000-0x101fffff]
+Jan  1 00:11:59 localhost kernel: [    1.562903] pci 0000:00:17.0:   bridge window [mem 0x10200000-0x103fffff 64bit pref]
+Jan  1 00:11:59 localhost kernel: [    1.563047] pci 0000:00:17.1: PCI bridge to [bus 02]
+Jan  1 00:11:59 localhost kernel: [    1.563153] pci 0000:00:17.1:   bridge window [io  0x3000-0x3fff]
+Jan  1 00:11:59 localhost kernel: [    1.563281] pci 0000:00:17.1:   bridge window [mem 0x10400000-0x105fffff]
+Jan  1 00:11:59 localhost kernel: [    1.563408] pci 0000:00:17.1:   bridge window [mem 0x10600000-0x107fffff 64bit pref]
+Jan  1 00:11:59 localhost kernel: [    1.563684] IOAPIC[0]: Set routing entry (1-20 -> 0x41 -> IRQ 20 Mode:1 Active:1 Dest:1)
+Jan  1 00:11:59 localhost kernel: [    1.563912] IOAPIC[0]: Set routing entry (1-21 -> 0x51 -> IRQ 21 Mode:1 Active:1 Dest:1)
+Jan  1 00:11:59 localhost kernel: [    1.564039] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7]
+Jan  1 00:11:59 localhost kernel: [    1.564097] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff]
+Jan  1 00:11:59 localhost kernel: [    1.564148] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff]
+Jan  1 00:11:59 localhost kernel: [    1.564202] pci_bus 0000:00: resource 7 [mem 0x10000000-0xfebfffff]
+Jan  1 00:11:59 localhost kernel: [    1.564258] pci_bus 0000:01: resource 0 [io  0x2000-0x2fff]
+Jan  1 00:11:59 localhost kernel: [    1.564311] pci_bus 0000:01: resource 1 [mem 0x10000000-0x101fffff]
+Jan  1 00:11:59 localhost kernel: [    1.564367] pci_bus 0000:01: resource 2 [mem 0x10200000-0x103fffff 64bit pref]
+Jan  1 00:11:59 localhost kernel: [    1.564421] pci_bus 0000:02: resource 0 [io  0x3000-0x3fff]
+Jan  1 00:11:59 localhost kernel: [    1.564474] pci_bus 0000:02: resource 1 [mem 0x10400000-0x105fffff]
+Jan  1 00:11:59 localhost kernel: [    1.564528] pci_bus 0000:02: resource 2 [mem 0x10600000-0x107fffff 64bit pref]
+Jan  1 00:11:59 localhost kernel: [    1.565499] NET: Registered protocol family 2
+Jan  1 00:11:59 localhost kernel: [    1.570268] TCP established hash table entries: 2048 (order: 2, 16384 bytes)
+Jan  1 00:11:59 localhost kernel: [    1.570867] TCP bind hash table entries: 2048 (order: 4, 73728 bytes)
+Jan  1 00:11:59 localhost kernel: [    1.573149] TCP: Hash tables configured (established 2048 bind 2048)
+Jan  1 00:11:59 localhost kernel: [    1.573799] TCP: reno registered
+Jan  1 00:11:59 localhost kernel: [    1.573922] UDP hash table entries: 256 (order: 2, 20480 bytes)
+Jan  1 00:11:59 localhost kernel: [    1.574604] UDP-Lite hash table entries: 256 (order: 2, 20480 bytes)
+Jan  1 00:11:59 localhost kernel: [    1.576934] NET: Registered protocol family 1
+Jan  1 00:11:59 localhost kernel: [    1.577331] pci 0000:00:14.2: calling quirk_usb_early_handoff+0x0/0x670
+Jan  1 00:11:59 localhost kernel: [    1.577462] pci 0000:00:14.3: calling quirk_usb_early_handoff+0x0/0x670
+Jan  1 00:11:59 localhost kernel: [    1.577656] IOAPIC[0]: Set routing entry (1-19 -> 0x61 -> IRQ 19 Mode:1 Active:1 Dest:1)
+Jan  1 00:11:59 localhost kernel: [    1.578092] pci 0000:00:14.4: calling quirk_usb_early_handoff+0x0/0x670
+Jan  1 00:11:59 localhost kernel: [    1.578311] IOAPIC[0]: Set routing entry (1-16 -> 0x71 -> IRQ 16 Mode:1 Active:1 Dest:1)
+Jan  1 00:11:59 localhost kernel: [    1.578648] pci 0000:00:14.6: calling quirk_e100_interrupt+0x0/0x1b0
+Jan  1 00:11:59 localhost kernel: [    1.578788] pci 0000:00:14.7: calling quirk_e100_interrupt+0x0/0x1b0
+Jan  1 00:11:59 localhost kernel: [    1.579043] PCI: CLS 0 bytes, default 32
+Jan  1 00:11:59 localhost kernel: [    1.581662] Trying to unpack rootfs image as initramfs...
+Jan  1 00:11:59 localhost kernel: [    2.230398] Freeing initrd memory: 1408k freed
+Jan  1 00:11:59 localhost kernel: [    2.248774] microcode: Intel CPU family 0x5 not supported
+Jan  1 00:11:59 localhost kernel: [    2.255245] resource map sanity check conflict: 0xfff00000 0x1002fffff 0xff800000 0xffffffff reserved
+Jan  1 00:11:59 localhost kernel: [    2.255357] ------------[ cut here ]------------
+Jan  1 00:11:59 localhost kernel: [    2.255473] WARNING: at /build/clntonsw/slave_magnum/meta-clanton/build/compile/yocto_build/tmp/work/clanton-poky-linux-uclibc/linux-yocto-clanton/3.8-r0/linux/arch/x86/mm/ioremap.c:171 __ioremap_caller+0x27a/0x440()
+Jan  1 00:11:59 localhost kernel: [    2.255635] Info: mapping multiple BARs. Your kernel is fine.
+Jan  1 00:11:59 localhost kernel: [    2.255698] Modules linked in:
+Jan  1 00:11:59 localhost kernel: [    2.255786] Pid: 1, comm: swapper Not tainted 3.8.7-yocto-standard #1
+Jan  1 00:11:59 localhost kernel: [    2.255857] Call Trace:
+Jan  1 00:11:59 localhost kernel: [    2.255957]  [<c102f59f>] warn_slowpath_common+0x5f/0x80
+Jan  1 00:11:59 localhost kernel: [    2.256073]  [<c1023a7a>] ? __ioremap_caller+0x27a/0x440
+Jan  1 00:11:59 localhost kernel: [    2.256183]  [<c1023a7a>] ? __ioremap_caller+0x27a/0x440
+Jan  1 00:11:59 localhost kernel: [    2.256297]  [<c102f63e>] warn_slowpath_fmt+0x2e/0x30
+Jan  1 00:11:59 localhost kernel: [    2.256408]  [<c1023a7a>] __ioremap_caller+0x27a/0x440
+Jan  1 00:11:59 localhost kernel: [    2.256524]  [<c149ab13>] ? intel_cln_board_data_init+0x1a/0x19d
+Jan  1 00:11:59 localhost kernel: [    2.256633]  [<c149aaf9>] ? efi_capsule_update_init+0x8d/0x8d
+Jan  1 00:11:59 localhost kernel: [    2.256745]  [<c1023caa>] ioremap_nocache+0x1a/0x20
+Jan  1 00:11:59 localhost kernel: [    2.256852]  [<c149ab13>] ? intel_cln_board_data_init+0x1a/0x19d
+Jan  1 00:11:59 localhost kernel: [    2.256962]  [<c149ab13>] intel_cln_board_data_init+0x1a/0x19d
+Jan  1 00:11:59 localhost kernel: [    2.257062]  [<c110e613>] ? sysfs_add_file+0x13/0x20
+Jan  1 00:11:59 localhost kernel: [    2.257152]  [<c110e6bc>] ? sysfs_create_file+0x1c/0x20
+Jan  1 00:11:59 localhost kernel: [    2.257253]  [<c149aaf9>] ? efi_capsule_update_init+0x8d/0x8d
+Jan  1 00:11:59 localhost kernel: [    2.257352]  [<c100121a>] do_one_initcall+0x10a/0x150
+Jan  1 00:11:59 localhost kernel: [    2.257447]  [<c148aa6b>] kernel_init_freeable+0x106/0x1a0
+Jan  1 00:11:59 localhost kernel: [    2.257541]  [<c148a457>] ? do_early_param+0x7a/0x7a
+Jan  1 00:11:59 localhost kernel: [    2.257648]  [<c12fbc1b>] kernel_init+0xb/0xd0
+Jan  1 00:11:59 localhost kernel: [    2.257747]  [<c13055fb>] ret_from_kernel_thread+0x1b/0x30
+Jan  1 00:11:59 localhost kernel: [    2.257853]  [<c12fbc10>] ? rest_init+0xb0/0xb0
+Jan  1 00:11:59 localhost kernel: [    2.258005] ---[ end trace 938bc8a765ff357f ]---
+Jan  1 00:11:59 localhost kernel: [    2.258100] MFH: mfh @ 0xe1008000: id 0x5f4d4648 ver 0x00000001 entries 0x0000000a
+Jan  1 00:11:59 localhost kernel: [    2.260870] MFH: Warning platform data MFH missing - using hardcoded offsets
+Jan  1 00:11:59 localhost kernel: [    2.266251] resource map sanity check conflict: 0xfff10000 0x100000075 0xff800000 0xffffffff reserved
+Jan  1 00:11:59 localhost kernel: [    2.266516] CLN-PLT: Clanton Platform ID = 6
+Jan  1 00:11:59 localhost kernel: [    2.289914] Intel Clanton side-band driver registered
+Jan  1 00:11:59 localhost kernel: [    2.294884] IMR setup complete
+Jan  1 00:11:59 localhost kernel: [    2.297201] eSRAM CTRL 0x047f3f91 block 0x00000000
+Jan  1 00:11:59 localhost kernel: [    2.297275] eSRAM pages 128
+Jan  1 00:11:59 localhost kernel: [    2.318723] intel_cln_esram_test_probe/Oct  1 2013/00:07:49 complete OK !!
+Jan  1 00:11:59 localhost kernel: [    2.337806] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Jan  1 00:11:59 localhost kernel: [    2.481637] msgmni has been set to 456
+Jan  1 00:11:59 localhost kernel: [    2.494564] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+Jan  1 00:11:59 localhost kernel: [    2.494951] io scheduler noop registered
+Jan  1 00:11:59 localhost kernel: [    2.495035] io scheduler deadline registered
+Jan  1 00:11:59 localhost kernel: [    2.495251] io scheduler cfq registered (default)
+Jan  1 00:11:59 localhost kernel: [    2.530602] input: Sleep Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input0
+Jan  1 00:11:59 localhost kernel: [    2.531490] ACPI: Sleep Button [SLPB]
+Jan  1 00:11:59 localhost kernel: [    2.534173] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1
+Jan  1 00:11:59 localhost kernel: [    2.534353] ACPI: Power Button [PWRB]
+Jan  1 00:11:59 localhost kernel: [    2.702607] Serial: 8250/16550 driver, 2 ports, IRQ sharing enabled
+Jan  1 00:11:59 localhost kernel: [    2.715946] IOAPIC[0]: Set routing entry (1-17 -> 0x81 -> IRQ 17 Mode:1 Active:1 Dest:1)
+Jan  1 00:11:59 localhost kernel: [    2.716411] Setup PCI port: port 0, irq 17, type 2
+Jan  1 00:11:59 localhost kernel: [    2.764343] 0000:00:14.1: ttyS0 at MMIO 0x9000f000 (irq = 17) is a 16550A
+Jan  1 00:11:59 localhost kernel: [    2.768709] Setup PCI port: port 0, irq 17, type 2
+Jan  1 00:11:59 localhost kernel: [    2.792650] 0000:00:14.5: ttyS1 at MMIO 0x9000b000 (irq = 17) is a 16550A
+Jan  1 00:11:59 localhost kernel: [    2.793879] console [ttyS1] enabled, bootconsole disabled
+Jan  1 00:11:59 localhost kernel: [    2.806797] Real Time Clock Driver v1.12b
+Jan  1 00:11:59 localhost kernel: [    2.824173] brd: module loaded
+Jan  1 00:11:59 localhost kernel: [    2.843144] loop: module loaded
+Jan  1 00:11:59 localhost kernel: [    2.848819] lpc_sch_probe BIOS_CNTL 0x00000101
+Jan  1 00:11:59 localhost kernel: [    2.853469] lpc_sch_probe new BIOS_CNTL 0x00000101
+Jan  1 00:11:59 localhost kernel: [    2.858328] lpc_sch_probe RCBA @ 0xfed1c000
+Jan  1 00:11:59 localhost kernel: [    2.886147] cpuidle: using governor ladder
+Jan  1 00:11:59 localhost kernel: [    2.890786] cpuidle: using governor menu
+Jan  1 00:11:59 localhost kernel: [    2.895987] sdhci: Secure Digital Host Controller Interface driver
+Jan  1 00:11:59 localhost kernel: [    2.902346] sdhci: Copyright(c) Pierre Ossman
+Jan  1 00:11:59 localhost kernel: [    2.907340] sdhci-pci 0000:00:14.0: SDHCI controller found [8086:08a7] (rev 10)
+Jan  1 00:11:59 localhost kernel: [    2.917184] sdhci-pci 0000:00:14.0: setting latency timer to 64
+Jan  1 00:11:59 localhost kernel: [    2.918507] sdhci-pci 0000:00:14.0: setting latency timer to 64
+Jan  1 00:11:59 localhost kernel: [    2.960253] mmc0: SDHCI controller on PCI [0000:00:14.0] using ADMA
+Jan  1 00:11:59 localhost kernel: [    2.973790] sdhci-pltfm: SDHCI platform and OF driver helper
+Jan  1 00:11:59 localhost kernel: [    2.996163] THRM: critical reset 104 c hot 95 c hardware failover 105 c
+Jan  1 00:11:59 localhost kernel: [    3.024804] TCP: cubic registered
+Jan  1 00:11:59 localhost kernel: [    3.028191] NET: Registered protocol family 17
+Jan  1 00:11:59 localhost kernel: [    3.034494] 
+Jan  1 00:11:59 localhost kernel: [    3.034494] printing PIC contents
+Jan  1 00:11:59 localhost kernel: [    3.034552] ... PIC  IMR: ffff
+Jan  1 00:11:59 localhost kernel: [    3.034581] ... PIC  IRR: 0000
+Jan  1 00:11:59 localhost kernel: [    3.034609] ... PIC  ISR: 0000
+Jan  1 00:11:59 localhost kernel: [    3.034637] ... PIC ELCR: 0000
+Jan  1 00:11:59 localhost kernel: [    3.034670] printing local APIC contents on CPU#0/0:
+Jan  1 00:11:59 localhost kernel: [    3.034701] ... APIC ID:      00000000 (0)
+Jan  1 00:11:59 localhost kernel: [    3.038836] ... APIC VERSION: 00030010
+Jan  1 00:11:59 localhost kernel: [    3.042623] ... APIC TASKPRI: 00000000 (00)
+Jan  1 00:11:59 localhost kernel: [    3.042654] ... APIC ARBPRI: 00000000 (00)
+Jan  1 00:11:59 localhost kernel: [    3.042682] ... APIC PROCPRI: 00000000
+Jan  1 00:11:59 localhost kernel: [    3.042710] ... APIC RRR: 00000000
+Jan  1 00:11:59 localhost kernel: [    3.042729] ... APIC LDR: 01000000
+Jan  1 00:11:59 localhost kernel: [    3.042729] ... APIC DFR: ffffffff
+Jan  1 00:11:59 localhost kernel: [    3.042729] ... APIC SPIV: 000001ff
+Jan  1 00:11:59 localhost kernel: [    3.042729] ... APIC ISR field:
+Jan  1 00:11:59 localhost kernel: [    3.042729] 0000000000000000000000000000000000000000000000000000000000000000
+Jan  1 00:11:59 localhost kernel: [    3.042729] ... APIC TMR field:
+Jan  1 00:11:59 localhost kernel: [    3.042729] 0000000000000000000000000002000000000000000000000000000000000000
+Jan  1 00:11:59 localhost kernel: [    3.042729] ... APIC IRR field:
+Jan  1 00:11:59 localhost kernel: [    3.042729] 0000000000000000000000000000000000000000000000000000000000008000
+Jan  1 00:11:59 localhost kernel: [    3.042729] ... APIC ESR: 00000000
+Jan  1 00:11:59 localhost kernel: [    3.042729] ... APIC ICR: 00088500
+Jan  1 00:11:59 localhost kernel: [    3.042729] ... APIC ICR2: 00000000
+Jan  1 00:11:59 localhost kernel: [    3.042729] ... APIC LVTT: 000000ef
+Jan  1 00:11:59 localhost kernel: [    3.042729] ... APIC LVT0: 00010700
+Jan  1 00:11:59 localhost kernel: [    3.042729] ... APIC LVT1: 00000400
+Jan  1 00:11:59 localhost kernel: [    3.042729] ... APIC LVTERR: 000000fe
+Jan  1 00:11:59 localhost kernel: [    3.042729] ... APIC TMICT: 0002c0f6
+Jan  1 00:11:59 localhost kernel: [    3.042729] ... APIC TMCCT: 00000000
+Jan  1 00:11:59 localhost kernel: [    3.042729] ... APIC TDCR: 00000003
+Jan  1 00:11:59 localhost kernel: [    3.042729] 
+Jan  1 00:11:59 localhost kernel: [    3.066575] number of MP IRQ sources: 15.
+Jan  1 00:11:59 localhost kernel: [    3.066618] number of IO-APIC #1 registers: 24.
+Jan  1 00:11:59 localhost kernel: [    3.066645] testing the IO APIC.......................
+Jan  1 00:11:59 localhost kernel: [    3.071938] IO APIC #1......
+Jan  1 00:11:59 localhost kernel: [    3.071978] .... register #00: 01000000
+Jan  1 00:11:59 localhost kernel: [    3.072007] .......    : physical APIC id: 01
+Jan  1 00:11:59 localhost kernel: [    3.072032] .......    : Delivery Type: 0
+Jan  1 00:11:59 localhost kernel: [    3.072058] .......    : LTS          : 0
+Jan  1 00:11:59 localhost kernel: [    3.072083] .... register #01: 00170020
+Jan  1 00:11:59 localhost kernel: [    3.072110] .......     : max redirection entries: 17
+Jan  1 00:11:59 localhost kernel: [    3.072136] .......     : PRQ implemented: 0
+Jan  1 00:11:59 localhost kernel: [    3.072162] .......     : IO APIC version: 20
+Jan  1 00:11:59 localhost kernel: [    3.072186] .... IRQ redirection table:
+Jan  1 00:11:59 localhost kernel: [    3.072210]  NR Dst Mask Trig IRR Pol Stat Dmod Deli Vect:
+Jan  1 00:11:59 localhost kernel: [    3.072245]  00 00  1    0    0   0   0    0    0    00
+Jan  1 00:11:59 localhost kernel: [    3.072302]  01 01  0    0    0   0   0    1    1    31
+Jan  1 00:11:59 localhost kernel: [    3.072355]  02 01  0    0    0   0   0    1    1    30
+Jan  1 00:11:59 localhost kernel: [    3.072408]  03 01  0    0    0   0   0    1    1    33
+Jan  1 00:11:59 localhost kernel: [    3.072462]  04 01  0    0    0   0   0    1    1    34
+Jan  1 00:11:59 localhost kernel: [    3.072515]  05 01  0    0    0   0   0    1    1    35
+Jan  1 00:11:59 localhost kernel: [    3.072568]  06 01  0    0    0   0   0    1    1    36
+Jan  1 00:11:59 localhost kernel: [    3.072621]  07 01  0    0    0   0   0    1    1    37
+Jan  1 00:11:59 localhost kernel: [    3.072675]  08 01  0    0    0   0   0    1    1    38
+Jan  1 00:11:59 localhost kernel: [    3.072728]  09 01  0    1    0   0   0    1    1    39
+Jan  1 00:11:59 localhost kernel: [    3.072782]  0a 01  0    0    0   0   0    1    1    3A
+Jan  1 00:11:59 localhost kernel: [    3.072835]  0b 01  0    0    0   0   0    1    1    3B
+Jan  1 00:11:59 localhost kernel: [    3.072888]  0c 01  0    0    0   0   0    1    1    3C
+Jan  1 00:11:59 localhost kernel: [    3.072942]  0d 01  0    0    0   0   0    1    1    3D
+Jan  1 00:11:59 localhost kernel: [    3.072995]  0e 01  0    0    0   0   0    1    1    3E
+Jan  1 00:11:59 localhost kernel: [    3.073048]  0f 01  0    0    0   0   0    1    1    3F
+Jan  1 00:11:59 localhost kernel: [    3.073102]  10 01  0    1    0   1   0    1    1    71
+Jan  1 00:11:59 localhost kernel: [    3.073156]  11 01  1    1    0   1   0    1    1    81
+Jan  1 00:11:59 localhost kernel: [    3.073210]  12 00  1    0    0   0   0    0    0    00
+Jan  1 00:11:59 localhost kernel: [    3.073263]  13 01  1    1    0   1   0    1    1    61
+Jan  1 00:11:59 localhost kernel: [    3.073317]  14 01  1    1    0   1   0    1    1    41
+Jan  1 00:11:59 localhost kernel: [    3.073370]  15 01  1    1    0   1   0    1    1    51
+Jan  1 00:11:59 localhost kernel: [    3.073424]  16 00  1    0    0   0   0    0    0    00
+Jan  1 00:11:59 localhost kernel: [    3.073477]  17 00  1    0    0   0   0    0    0    00
+Jan  1 00:11:59 localhost kernel: [    3.073522] IRQ to pin mappings:
+Jan  1 00:11:59 localhost kernel: [    3.073552] IRQ0 -> 0:2
+Jan  1 00:11:59 localhost kernel: [    3.073594] IRQ1 -> 0:1
+Jan  1 00:11:59 localhost kernel: [    3.073636] IRQ3 -> 0:3
+Jan  1 00:11:59 localhost kernel: [    3.073676] IRQ4 -> 0:4
+Jan  1 00:11:59 localhost kernel: [    3.073713] IRQ5 -> 0:5
+Jan  1 00:11:59 localhost kernel: [    3.073754] IRQ6 -> 0:6
+Jan  1 00:11:59 localhost kernel: [    3.073791] IRQ7 -> 0:7
+Jan  1 00:11:59 localhost kernel: [    3.073831] IRQ8 -> 0:8
+Jan  1 00:11:59 localhost kernel: [    3.073868] IRQ9 -> 0:9
+Jan  1 00:11:59 localhost kernel: [    3.073908] IRQ10 -> 0:10
+Jan  1 00:11:59 localhost kernel: [    3.073946] IRQ11 -> 0:11
+Jan  1 00:11:59 localhost kernel: [    3.073987] IRQ12 -> 0:12
+Jan  1 00:11:59 localhost kernel: [    3.074024] IRQ13 -> 0:13
+Jan  1 00:11:59 localhost kernel: [    3.074065] IRQ14 -> 0:14
+Jan  1 00:11:59 localhost kernel: [    3.074103] IRQ15 -> 0:15
+Jan  1 00:11:59 localhost kernel: [    3.074144] IRQ16 -> 0:16
+Jan  1 00:11:59 localhost kernel: [    3.074185] IRQ17 -> 0:17
+Jan  1 00:11:59 localhost kernel: [    3.074226] IRQ19 -> 0:19
+Jan  1 00:11:59 localhost kernel: [    3.074263] IRQ20 -> 0:20
+Jan  1 00:11:59 localhost kernel: [    3.074302] IRQ21 -> 0:21
+Jan  1 00:11:59 localhost kernel: [    3.074342] .................................... done.
+Jan  1 00:11:59 localhost kernel: [    3.079522] Using IPI Shortcut mode
+Jan  1 00:11:59 localhost kernel: [    3.096676]   Magic number: 1:653:151
+Jan  1 00:11:59 localhost kernel: [    3.100670] tty ttyp5: hash matches
+Jan  1 00:11:59 localhost kernel: [    3.104364] pci 0000:00:14.4: hash matches
+Jan  1 00:11:59 localhost kernel: [    3.121034] Freeing unused kernel memory: 272k freed
+Jan  1 00:11:59 localhost kernel: [    3.128928] Write protecting the kernel text: 3100k
+Jan  1 00:11:59 localhost kernel: [    3.135125] Write protecting the kernel read-only data: 1284k
+Jan  1 00:11:59 localhost kernel: [    3.141059] NX-protecting the kernel data: 3044k
+Jan  1 00:11:59 localhost kernel: [    3.163663] mmc0: new high speed SDHC card at address b368
+Jan  1 00:11:59 localhost kernel: [    3.188040] mmcblk0: mmc0:b368 SD08G 7.41 GiB 
+Jan  1 00:11:59 localhost kernel: [    3.221566]  mmcblk0: p1
+Jan  1 00:11:59 localhost kernel: [    3.230995] tsc: Refined TSC clocksource calibration: 399.076 MHz
+Jan  1 00:11:59 localhost kernel: [    3.237331] Switching to clocksource tsc
+Jan  1 00:11:59 localhost kernel: [   10.575938] kjournald starting.  Commit interval 5 seconds
+Jan  1 00:11:59 localhost kernel: [   10.582770] EXT3-fs (loop0): using internal journal
+Jan  1 00:11:59 localhost kernel: [   10.596500] EXT3-fs (loop0): recovery complete
+Jan  1 00:11:59 localhost kernel: [   10.601138] EXT3-fs (loop0): mounted filesystem with writeback data mode
+Jan  1 00:11:59 localhost kernel: [   17.367497] IOAPIC[0]: Set routing entry (1-18 -> 0x91 -> IRQ 18 Mode:1 Active:1 Dest:1)
+Jan  1 00:11:59 localhost kernel: [   17.369775] pch_udc 0000:00:14.2: setting latency timer to 64
+Jan  1 00:11:59 localhost kernel: [   17.375821] pch_udc 0000:00:14.2: irq 40 for MSI/MSI-X
+Jan  1 00:11:59 localhost kernel: [   17.376457] pch_udc 0000:00:14.2: enabling Mem-Wr-Inval
+Jan  1 00:11:59 localhost kernel: [   17.942273] g_serial: Vendor 0x8086 Product 0xbabe
+Jan  1 00:11:59 localhost kernel: [   17.947221] g_serial gadget: Gadget Serial v2.4
+Jan  1 00:11:59 localhost kernel: [   17.986308] g_serial gadget: g_serial ready
+Jan  1 00:11:59 localhost kernel: [   18.491468] stmmaceth 0000:00:14.6: enabling device (0000 -> 0002)
+Jan  1 00:11:59 localhost kernel: [   18.497876] stmmaceth 0000:00:14.6: enabling bus mastering
+Jan  1 00:11:59 localhost kernel: [   18.497959] stmmaceth 0000:00:14.6: setting latency timer to 64
+Jan  1 00:11:59 localhost kernel: [   18.498345] stmmaceth 0000:00:14.6: irq 41 for MSI/MSI-X
+Jan  1 00:11:59 localhost kernel: [   18.498593] stmmac MSI mode enabled
+Jan  1 00:11:59 localhost kernel: [   18.502089] Vendor 0x8086 Device 0x0937
+Jan  1 00:11:59 localhost kernel: [   18.544786] stmmac - user ID: 0x10, Synopsys ID: 0x37
+Jan  1 00:11:59 localhost kernel: [   18.549891]  DMA HW capability register supported
+Jan  1 00:11:59 localhost kernel: [   18.554591]  Enhanced/Alternate descriptors
+Jan  1 00:11:59 localhost kernel: [   18.559019]  RX Checksum Offload Engine supported (type 2)
+Jan  1 00:11:59 localhost kernel: [   18.564664]  TX Checksum insertion supported
+Jan  1 00:11:59 localhost kernel: [   18.568984]  Enable RX Mitigation via HW Watchdog Timer
+Jan  1 00:11:59 localhost kernel: [   18.812318] libphy: stmmac: probed
+Jan  1 00:11:59 localhost kernel: [   18.815787] eth0: PHY ID 20005c90 at 1 IRQ 0 (stmmac-1:01) active
+Jan  1 00:11:59 localhost kernel: [   19.264877] ACPI: bus type usb registered
+Jan  1 00:11:59 localhost kernel: [   19.280246] usbcore: registered new interface driver usbfs
+Jan  1 00:11:59 localhost kernel: [   19.310360] usbcore: registered new interface driver hub
+Jan  1 00:11:59 localhost kernel: [   19.327877] usbcore: registered new device driver usb
+Jan  1 00:11:59 localhost kernel: [   19.370937] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jan  1 00:11:59 localhost kernel: [   19.718977] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Jan  1 00:11:59 localhost kernel: [   19.744393] ohci_hcd 0000:00:14.4: enabling bus mastering
+Jan  1 00:11:59 localhost kernel: [   19.744478] ohci_hcd 0000:00:14.4: setting latency timer to 64
+Jan  1 00:11:59 localhost kernel: [   19.744540] ohci_hcd 0000:00:14.4: OHCI Host Controller
+Jan  1 00:11:59 localhost kernel: [   19.780901] ohci_hcd 0000:00:14.4: new USB bus registered, assigned bus number 1
+Jan  1 00:11:59 localhost kernel: [   19.788652] ohci_hcd 0000:00:14.4: irq 16, io mem 0x9000c000
+Jan  1 00:11:59 localhost kernel: [   19.892340] hub 1-0:1.0: USB hub found
+Jan  1 00:11:59 localhost kernel: [   19.896762] hub 1-0:1.0: 2 ports detected
+Jan  1 00:11:59 localhost kernel: [   20.310875] ehci-pci: EHCI PCI platform driver
+Jan  1 00:11:59 localhost kernel: [   20.315814] ehci-pci 0000:00:14.3: enabling bus mastering
+Jan  1 00:11:59 localhost kernel: [   20.315899] ehci-pci 0000:00:14.3: setting latency timer to 64
+Jan  1 00:11:59 localhost kernel: [   20.315964] ehci-pci 0000:00:14.3: EHCI Host Controller
+Jan  1 00:11:59 localhost kernel: [   20.330333] ehci-pci 0000:00:14.3: new USB bus registered, assigned bus number 2
+Jan  1 00:11:59 localhost kernel: [   20.338872] ehci-pci 0000:00:14.3: enabling Mem-Wr-Inval
+Jan  1 00:11:59 localhost kernel: [   20.339044] ehci-pci 0000:00:14.3: INSNREG01 is 0x007f007f
+Jan  1 00:11:59 localhost kernel: [   20.344745] ehci-pci 0000:00:14.3: INSNREG01 is 0x007f007f
+Jan  1 00:11:59 localhost kernel: [   20.370523] ehci-pci 0000:00:14.3: irq 19, io mem 0x9000d000
+Jan  1 00:11:59 localhost kernel: [   20.390256] ehci-pci 0000:00:14.3: USB 2.0 started, EHCI 1.00
+Jan  1 00:11:59 localhost kernel: [   20.420921] hub 2-0:1.0: USB hub found
+Jan  1 00:11:59 localhost kernel: [   20.424936] hub 2-0:1.0: 2 ports detected
+Jan  1 00:11:59 localhost kernel: [   20.838328] Initializing USB Mass Storage driver...
+Jan  1 00:11:59 localhost kernel: [   20.852149] usbcore: registered new interface driver usb-storage
+Jan  1 00:11:59 localhost kernel: [   20.858210] USB Mass Storage support registered.
+Jan  1 00:11:59 localhost kernel: [   21.672766] intel_cln_gpio_probe UIO addr 0x90006000 internal_addr 0x00000000 size 3765649408 memtype 4096
+Jan  1 00:11:59 localhost kernel: [   21.729420] intel_cln_gip 0000:00:15.2: setting latency timer to 64
+Jan  1 00:11:59 localhost kernel: [   21.729823] intel_cln_gip 0000:00:15.2: irq 42 for MSI/MSI-X
+Jan  1 00:11:59 localhost kernel: [   22.049619] cy8c9540a 0-0020: dev_id=0x40
+Jan  1 00:11:59 localhost kernel: [   22.551717] at24 0-0050: byte_len looks suspicious (no power of 2)!
+Jan  1 00:11:59 localhost kernel: [   22.558175] at24 0-0050: 11264 byte at24 EEPROM, writable, 1 bytes/write
+Jan  1 00:11:59 localhost kernel: [   22.901257] i2c /dev entries driver
+Jan  1 00:11:59 localhost kernel: [   23.845864] spi_pxa2xx_pci: `' invalid for parameter `gpio_cs'
+Jan  1 00:11:59 localhost kernel: [   24.185949] ce4100_spi 0000:00:15.0: enabling device (0000 -> 0002)
+Jan  1 00:11:59 localhost kernel: [   24.207786] ce4100_spi 0000:00:15.0: enabling bus mastering
+Jan  1 00:11:59 localhost kernel: [   24.207872] ce4100_spi 0000:00:15.0: setting latency timer to 64
+Jan  1 00:11:59 localhost kernel: [   24.208271] ce4100_spi 0000:00:15.0: irq 43 for MSI/MSI-X
+Jan  1 00:11:59 localhost kernel: [   24.213919] ce4100_spi 0000:00:15.1: enabling device (0000 -> 0002)
+Jan  1 00:11:59 localhost kernel: [   24.233980] ce4100_spi 0000:00:15.1: enabling bus mastering
+Jan  1 00:11:59 localhost kernel: [   24.234066] ce4100_spi 0000:00:15.1: setting latency timer to 64
+Jan  1 00:11:59 localhost kernel: [   24.234469] ce4100_spi 0000:00:15.1: irq 44 for MSI/MSI-X
+Jan  1 00:11:59 localhost kernel: [   24.271680] pxa2xx-spi pxa2xx-spi.0: registered master spi0
+Jan  1 00:11:59 localhost kernel: [   24.272582] spi_master spi0: will run message pump with realtime priority
+Jan  1 00:11:59 localhost kernel: [   24.306510] spi spi0.0: 1000000 Hz actual, PIO
+Jan  1 00:11:59 localhost kernel: [   24.306900] spi spi0.0: setup mode 2, 8 bits/w, 5000000 Hz max --> 0
+Jan  1 00:11:59 localhost kernel: [   24.321541] pxa2xx-spi pxa2xx-spi.0: registered child spi0.0
+Jan  1 00:11:59 localhost kernel: [   24.323676] pxa2xx-spi pxa2xx-spi.1: registered master spi1
+Jan  1 00:11:59 localhost kernel: [   24.324567] spi_master spi1: will run message pump with realtime priority
+Jan  1 00:11:59 localhost kernel: [   24.339197] spi spi1.0: 5000000 Hz actual, PIO
+Jan  1 00:11:59 localhost kernel: [   24.339303] spi spi1.0: setup mode 0, 8 bits/w, 50000000 Hz max --> 0
+Jan  1 00:11:59 localhost kernel: [   24.373856] pxa2xx-spi pxa2xx-spi.1: registered child spi1.0
+Jan  1 00:11:59 localhost kernel: [   25.579454] cfg80211: Calling CRDA to update world regulatory domain
+Jan  1 00:11:59 localhost kernel: [   25.641203] Intel(R) Wireless WiFi driver for Linux, in-tree:
+Jan  1 00:11:59 localhost kernel: [   25.647005] Copyright(c) 2003-2012 Intel Corporation
+Jan  1 00:11:59 localhost kernel: [   26.441014] Bluetooth: Core ver 2.16
+Jan  1 00:11:59 localhost kernel: [   26.445930] NET: Registered protocol family 31
+Jan  1 00:11:59 localhost kernel: [   26.450559] Bluetooth: HCI device and connection manager initialized
+Jan  1 00:11:59 localhost kernel: [   26.470975] Bluetooth: HCI socket layer initialized
+Jan  1 00:11:59 localhost kernel: [   26.475988] Bluetooth: L2CAP socket layer initialized
+Jan  1 00:11:59 localhost kernel: [   26.512011] Bluetooth: SCO socket layer initialized
+Jan  1 00:11:59 localhost kernel: [   26.550812] usbcore: registered new interface driver btusb
+Jan  1 00:11:59 localhost kernel: [   26.883905] usbcore: registered new interface driver usbhid
+Jan  1 00:11:59 localhost kernel: [   26.889531] usbhid: USB HID core driver
+Jan  1 00:11:59 localhost kernel: [   35.655853] NET: Registered protocol family 10
+Jan  1 00:11:59 localhost kernel: [   36.001029] eth0: device MAC address 98:4f:ee:00:49:97
+root@Galileo-Debian:/var/log# 
