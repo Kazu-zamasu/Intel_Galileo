@@ -2,7 +2,7 @@ Intel_Galileo
 =============
 any data.  
 #YoctoProjectのカーネルビルドでSWAPをEnableにしました。  
-フォルダ内を全てDLしてください。  
+ZIPをDLして展開してください。  
 SDのパーティションは2パーティションとし後方パーティションにSWAP領域を設定してください。  
 login:debian pass:debian です。適時変更して下さい。  
 本Debianのイメージ作成は以下のプロセスで行っています。  
