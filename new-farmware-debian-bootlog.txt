@@ -1,0 +1,2432 @@
+Loading PEIM at 0x0008002CF34 EntryPoint=0x0008002D024 /jenkins_builder/workspace/GLLO_BSP100.efi
+Platform Info: Type = 6
+Platform Info: Platform Data Mrc Vars found: length 39 version = 1
+Install PPI: 1E2ACC41-E26A-483D-AFC7-A056C34E087B
+Loading PEIM at 0x000800127C4 EntryPoint=0x000800128B4 /jenkins_builder/workspace/GLLO_BSP100.efi
+Install PPI: 2AB86EF5-ECB5-4134-B556-3854CA1FE1B4
+Loading PEIM at 0x00080013E14 EntryPoint=0x00080013F04 /jenkins_builder/workspace/GLLO_BSP100.efi
+Install PPI: C153205A-E898-4C24-8689-A4B4BCC5C8A2
+Register PPI Notify: 7408D748-FC8C-4EE6-9288-C4BEC092A410
+Loading PEIM at 0x0008001722C EntryPoint=0x0008001731C /jenkins_builder/workspace/GLLO_BSP100.efi
+Install PPI: 3ACF33EE-D892-40F4-A2FC-3854D2E1323D
+Loading PEIM at 0x0008001A5FC EntryPoint=0x0008001A6EC /jenkins_builder/workspace/GLLO_BSP100.efi
+Install PPI: 21FF1FEE-D33A-4FCE-A65E-955EA3C41F40
+Loading PEIM at 0x0008002194C EntryPoint=0x00080021A3C /jenkins_builder/workspace/GLLO_BSP100.efi
+Install PPI: 61C68702-4D7E-4F43-8DEF-A74305CE74C5
+Loading PEIM at 0x00080022720 EntryPoint=0x00080022810 /jenkins_builder/workspace/GLLO_BSP100.efi
+Register PPI Notify: 49EDB1C1-BF21-4761-BB12-EB0031AABB39
+
+************************************************************
+****  Quark EDKII SECURE LOCKDOWN DISABLED            ****
+****  Quark EDKII Stage 1 Boot Image 0                ****
+****  Quark EDKII Stage 2 Image 0xFFD00400:0x00120000 ****
+****  Quark EDKII Payload Image 0xFF800400:0x00050400 ****
+************************************************************
+
+MFH Flash Item List:
+****  Quark 0xFFF90000:0x0003F400 Firmware stage1 signed ****
+****  Quark 0xFFEC0000:0x0003F400 Firmware stage1 signed ****
+****  Quark 0xFFE80000:0x0003F400 Firmware stage1 signed ****
+****  Quark 0xFFD00000:0x00120400 Firmware stage2 signed ****
+****  Quark 0xFFA60000:0x0029310F RAMDISK ****
+****  Quark 0xFFCFF000:0x00000C05 Build information ****
+****  Quark 0xFF852000:0x001E23D0 Kernel signed ****
+****  Quark 0xFF851000:0x00000A69 Bootloader config signed ****
+****  Quark 0xFF800000:0x00050400 Bootloader signed ****
+****  Quark 0x00000000:0x00000000 Firmware image version ****
+MFH Boot Priority List:
+****  Quark 0xFFEC0000:0x0003F400 Firmware stage1 signed ****
+****  Quark 0xFFE80000:0x0003F400 Firmware stage1 signed ****
+
+Platform Data Item List in System Area:
+****  Quark Data Id:Len = 0x0001:0x0002 Desc = PlatformID Ver=0000 ****
+****  Quark Data Id:Len = 0x0006:0x0027 Desc = MrcParams Ver=0001 ****
+****  Quark Data Id:Len = 0x0003:0x0006 Desc = 1st MAC Ver=0000 ****
+****  Quark Data Id:Len = 0x0004:0x0006 Desc = 2nd MAC Ver=0000 ****
+*************************************************
+
+EarlyPlatformGpioInit for PlatType=0x06
+Early Platform Thermal Sensor Init
+IsFirstBoot = 0 , EnableFastBoot= 1. 
+Boot with Minimum cfg
+Install PPI: 7408D748-FC8C-4EE6-9288-C4BEC092A410
+Notify: PPI Guid: 7408D748-FC8C-4EE6-9288-C4BEC092A410, Peim notify entry point: 800140F2
+Reinstall PPI: 6F8C2B35-FEF4-448D-8256-E11B19D61077
+Install PPI: F34C2FA0-DE88-4270-8414-961222F4521C
+Flash Map PEIM Loaded
+MRC Entry
+MRC McFuseStat 0x00000429
+MRC Fuse : fus_dun_ecc_dis.
+MRC dram_width 0
+MRC rank_enables 1
+MRC ddr_speed 0
+MRC flags: SCRAMBLE_EN
+MRC density=1 tCL=6 tRAS=37500 tWTR=10000 tRRD=10000 tFAW=40000
+MRC Version 0111 May 14 2014 10:14:35
+Meminit build May 14 2014 10:14:34
+POST: 0x100
+POST: 0x101
+POST: 0x200
+POST: 0x200
+POST: 0x103
+POST: 0x104
+POST: 0x300
+POST: 0x300
+POST: 0x310
+POST: 0x311
+POST: 0x312
+POST: 0x313
+POST: 0x314
+POST: 0x400
+POST: 0x400
+POST: 0x105
+POST: 0x106
+POST: 0x10C
+POST: 0x10D
+POST: 0x10E
+POST: 0x110
+POST: 0x111
+POST: 0x112
+POST: 0x113
+HteMemInit....done
+Memory test result 0
+POST: 0x114
+
+---------------------------
+ALGO[CH:RK] BL0 BL1 BL2 BL3
+===========================
+RCVN[00:00] 468 469
+WDQS[00:00] 301 306
+WDQx[00:00] 267 275
+RDQS[00:00] 027 027
+VREF[00:00] 031 031
+WCMD[00:00] 222 222
+WCTL[00:00] 222 222
+WCLK[00:00] 158 158
+---------------------------
+POST: 0x1FF
+InstallEfiMemory.
+Index 0, Page: 16
+Index 1, Page: 3328
+Index 2, Page: 96
+Index 3, Page: 96
+Index 4, Page: 64
+Index 5, Page: 0
+Found 0xA0000 bytes at 0x0.
+Found 0x60000 bytes at 0xA0000.
+Found 0xFCF0000 bytes at 0x100000.
+Found 0x200000 bytes at 0xFE00000.
+Found 0x10000 bytes at 0xFDF0000.
+RedirectMemoryServicesSetPool Base:Size 0x00100000:0x0BEE0000
+PeiInstallPeiMemory MemoryBegin 0xBFE0000, MemoryLength 0x2FE0000
+CMC Base Address : 0xFDF0000
+Found Microcode ADDR:SIZE 0x80000514:0x2000
+SaveConfig.
+CpuData.CpuAddressWidth : 32
+IIO[0] busbase = 0 Limit=FF
+IIO[0] IoBase = 2000 IoLimit=FFFF
+IIO[0] IoApicBase = FEC00000 IoApicLimit=FEC00FFF
+IIO[0] Mem32Base = 90000000 Mem32Limit=AFFFFFFF
+IIO[0] RcbaAddress=FED1C000
+MemoryInit Complete.
+Early PCIe controller initialisation
+Platform Erratas After MRC
+Register PPI Notify: F894643D-C449-42D1-8EA8-85BDD8C65BDE
+Temp Stack : BaseAddress=0x8007C000 Length=0x4000
+Temp Heap  : BaseAddress=0x80078000 Length=0xB58
+Total temporary memory:    32768 bytes.
+  temporary memory stack ever used: 16384 bytes.
+  temporary memory heap used:       2904 bytes.
+Old Stack size 16384, New stack size 131072
+Heap Offset = 0x74078000 Stack Offset = 0x74080000
+Stack Hob: BaseAddress=0xBFE0000 Length=0x20000
+Loading PEIM at 0x0000EFB6150 EntryPoint=0x0000EFB6240 /jenkins_builder/workspace/GLLO_BSP100.efi
+Reinstall PPI: 8C8CE578-8A3D-4F1C-9935-896185C32DD3
+Reinstall PPI: 5473C07A-3DCB-4DCA-BD6F-1E9689E7349A
+Reinstall PPI: B9E0ABFE-5979-4914-977F-6DEE78C278A6
+Install PPI: F894643D-C449-42D1-8EA8-85BDD8C65BDE
+Notify: PPI Guid: F894643D-C449-42D1-8EA8-85BDD8C65BDE, Peim notify entry point: 8002336D
+Platform PEIM Memory Callback
+Install PPI: EF398D58-9DFD-4103-BF94-78C6F4FE712F
+Install PPI: 1F4C6F90-B06B-48D8-A201-BAE5F1CD7D56
+Install PPI: 49EDB1C1-BF21-4761-BB12-EB0031AABB39
+Notify: PPI Guid: 49EDB1C1-BF21-4761-BB12-EB0031AABB39, Peim notify entry point: 80005109
+The 1th FV start address is 0x0000EE95400, size is 0x00120000, handle is 0xEE95400
+Found firmware volume Image File EE95448 in FV[1] EE95400
+Notify: PPI Guid: 49EDB1C1-BF21-4761-BB12-EB0031AABB39, Peim notify entry point: 80023D8A
+PeiSecurityVerifyFv - CurrentFvAddress=0x EE95400
+SecurityAuthenticateKeyModule Result:0 DebugCode:0x00000000: FatalCode:0x00000000
+SecurityAuthenticateImage RomResult:1 DebugCode:0x00000000: FatalCode:0x00000000
+CpuAddressWidth: 32
+Loading PEIM at 0x0000EE8F150 EntryPoint=0x0000EE8F240 /jenkins_builder/workspace/GLLO_BSP100.efi
+Install PPI: EE4E5898-3914-4259-9D6E-DC7BD79403CF
+Install PPI: A31280AD-481E-41B6-95E8-127F4C984779
+Install PPI: 0AE8CE5D-E448-4437-A8D7-EBF5F194F731
+Install PPI: 1A36E4E7-FAB6-476A-8E75-695A0576FDD7
+Loading PEIM at 0x0000EE8A150 EntryPoint=0x0000EE8A240 /jenkins_builder/workspace/GLLO_BSP100.efi
+Install PPI: 6D582DBC-DB85-4514-8FCC-5ADF6227B147
+Customized Guided section Memory Size required is 0x247010 and address is 0xEC3D000
+Install PPI: 49EDB1C1-BF21-4761-BB12-EB0031AABB39
+Notify: PPI Guid: 49EDB1C1-BF21-4761-BB12-EB0031AABB39, Peim notify entry point: 80005109
+The 2th FV start address is 0x0000E9F5000, size is 0x00247000, handle is 0xE9F5000
+Notify: PPI Guid: 49EDB1C1-BF21-4761-BB12-EB0031AABB39, Peim notify entry point: 80023D8A
+Loading PEIM at 0x0000E9F3150 EntryPoint=0x0000E9F3240 /jenkins_builder/workspace/GLLO_BSP100.efi
+Install PPI: 268F33A9-CCCD-48BE-8817-86053AC32ED6
+SMM  Base: 0FE00000
+SMM  Size: 00200000
+Loading PEIM at 0x0000E9F1150 EntryPoint=0x0000E9F1240 /jenkins_builder/workspace/GLLO_BSP100.efi
+DXE IPL Entry
+Loading PEIM at 0x0000E9D8000 EntryPoint=0x0000E9D8240 /jenkins_builder/workspace/GLLO_BSP100.efi
+Loading DXE CORE at 0x0000E9D8000 EntryPoint=0x0000E9D8240
+Install PPI: 605EA650-C65C-42E1-BA80-91A52AB618C6
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E9ED268
+HOBLIST address in DXE = 0xEFDB010
+Memory Allocation 0x00000004 0xE9B8000 - 0xE9D7FFF
+Memory Allocation 0x00000004 0xEFBF000 - 0xEFBFFFF
+Memory Allocation 0x00000004 0xEFB6000 - 0xEFBEFFF
+Memory Allocation 0x00000004 0xEE95000 - 0xEFB5FFF
+Memory Allocation 0x00000004 0xEE8F000 - 0xEE94FFF
+Memory Allocation 0x00000004 0xEE8A000 - 0xEE8EFFF
+Memory Allocation 0x00000004 0xEE86000 - 0xEE89FFF
+Memory Allocation 0x00000004 0xEC3D000 - 0xEE85FFF
+Memory Allocation 0x00000004 0xE9F5000 - 0xEC3CFFF
+Memory Allocation 0x00000004 0xE9F3000 - 0xE9F4FFF
+Memory Allocation 0x00000004 0xE9F1000 - 0xE9F2FFF
+Memory Allocation 0x00000004 0xE9D8000 - 0xE9F0FFF
+Memory Allocation 0x00000003 0xE9D8000 - 0xE9F0FFF
+Memory Allocation 0x00000004 0xE9B8000 - 0xE9D7FFF
+Memory Allocation 0x00000004 0xBFE0000 - 0xBFFFFFF
+FV Hob            0xE9F5000 - 0xEC3BFFF
+FV2 Hob           0xE9F5000 - 0xEC3BFFF
+InstallProtocolInterface: D8117CFE-94A6-11D4-9A3A-0090273FC14D E9ECCB0
+InstallProtocolInterface: 8F644FA9-E850-4DB1-9CE2-0B44698E8DA4 EFD781C
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B EFD7790
+InstallProtocolInterface: 220E73B6-6BDB-4413-8405-B974B108619A EFD731C
+InstallProtocolInterface: FC1BCDB0-7D31-49AA-936A-A4600D9DD083 E9ECF70
+InstallProtocolInterface: EE4E5898-3914-4259-9D6E-DC7BD79403CF E9ECF70
+InstallProtocolInterface: A31280AD-481E-41B6-95E8-127F4C984779 E9ECF70
+Loading driver 80CF7257-87AB-47F9-A3FE-D50B76D89541
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B EFDDC28
+Loading driver at 0x0000E8AB000 EntryPoint=0x0000E8AB273 PcdDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E97B810
+InstallProtocolInterface: 11B34006-D85B-4D0A-A290-D5A571310EF7 E8ADB20
+InstallProtocolInterface: 13A3F0F6-264A-3EF0-F2E0-DEC512342F34 E8ADAD8
+Loading driver BAE7599F-3C6B-43B7-BDF0-9CE07AA91AA6
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B EFDD928
+Loading driver at 0x0000F07D000 EntryPoint=0x0000F07D273 CpuIoDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E97B110
+InstallProtocolInterface: B0732526-38C8-4B40-8877-61C7B06AAC45 F07EA5C
+Loading driver A19B1FE7-C1BC-49F8-875F-54A5D542443F
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B EFDD7A8
+Loading driver at 0x0000E8A9000 EntryPoint=0x0000E8A9273 CpuIo2Dxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E95BB90
+InstallProtocolInterface: AD61F191-AE5F-4C0E-B9FA-E869D288C64F E8AA3D8
+Loading driver D93CE3D8-A7EB-4730-8C8E-CC466A9ECC3C
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B EFDD628
+Loading driver at 0x0000F07A000 EntryPoint=0x0000F07A273 ReportStatusCodeRouterRuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E95B610
+InstallProtocolInterface: 86212936-0E76-41C8-A03A-2AF2FC1C39E2 F07C23C
+InstallProtocolInterface: D2B2B828-0826-48A7-B3DF-983C006024F0 F07C244
+Loading driver 801ADCA0-815E-46A4-84F7-657F53621A57
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B EFDD4A8
+Loading driver at 0x0000E895000 EntryPoint=0x0000E895273 SectionExtractionDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E933F90
+InstallProtocolInterface: 448F5DA4-6DD7-4FE1-9307-69224192215D E896E18
+Loading driver F80697E9-7FD6-4665-8646-88E33EF71DFC
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B EFDD328
+Loading driver at 0x0000E893000 EntryPoint=0x0000E893273 SecurityStubDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E933A10
+InstallProtocolInterface: 94AB2F58-1438-4EF1-9152-18941A3A0E68 E894808
+InstallProtocolInterface: A46423E3-4617-49F1-B9FF-D1BFA9115839 E89480C
+Loading driver 62D171CB-78CD-4480-8678-C6A2A797A8DE
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B EFDD1A8
+Loading driver at 0x0000E886000 EntryPoint=0x0000E886273 CpuArchDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E933490
+InstallProtocolInterface: 26BACCB1-6F42-11D4-BCE7-0080C73C8881 E88AAC0
+Loading driver C8339973-A563-4561-B858-D8476F9DEFC4
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E8C0DA8
+Loading driver at 0x0000E87C000 EntryPoint=0x0000E87C273 Metronome.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E8EBC90
+InstallProtocolInterface: 26BACCB2-6F42-11D4-BCE7-0080C73C8881 E87D0A4
+Loading driver B601F8C4-43B7-4784-95B1-F4226CB40CEE
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E8C0C28
+Loading driver at 0x0000F077000 EntryPoint=0x0000F077273 RuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E8EB790
+InstallProtocolInterface: B7DFB4E1-052F-449F-87BE-9818FC91B733 F078A64
+Loading driver 4B28E4C7-FF36-4E10-93CF-A82159E777C5
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E8C0AA8
+Loading driver at 0x0000F075000 EntryPoint=0x0000F075273 ResetSystemRuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E8EB290
+InstallProtocolInterface: 27CFAC88-46CC-11D4-9A38-0090273FC14D 0
+Loading driver 9B680FCE-AD6B-4F3A-B60B-F59899003443
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E8C0928
+Loading driver at 0x0000E862000 EntryPoint=0x0000E862273 DevicePathDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E89ED90
+InstallProtocolInterface: 0379BE4E-D706-437D-B037-EDB82FB772A4 E86816C
+InstallProtocolInterface: 8B843E20-8132-4852-90CC-551A4E4A7F1C E868164
+InstallProtocolInterface: 05C99A21-C70F-4AD2-8A5F-35DF3343F51E E86815C
+Loading driver 53BCC14F-C24F-434C-B294-8ED2D4CC1860
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E8C07A8
+Loading driver at 0x0000E860000 EntryPoint=0x0000E860273 DataHubDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E89E610
+InstallProtocolInterface: AE80D021-618E-11D4-BCD7-0080C73C8881 E861960
+Loading driver 96B5C032-DF4C-4B6E-8232-438DCF448D0E
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E8C0628
+Loading driver at 0x0000E85E000 EntryPoint=0x0000E85E273 NullMemoryTestDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E89E090
+InstallProtocolInterface: 309DE7F1-7F5E-4ACE-B49C-531BE5AA95EF E85F0F0
+Loading driver C194C6EA-B68C-4981-B64B-9BD271474B20
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E8C04A8
+Loading driver at 0x0000F070000 EntryPoint=0x0000F070273 PchSpiRuntime.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E892B10
+InstallProtocolInterface: 1156EFC6-EA32-4396-B5D5-26932E83C313 F0DB018
+Loading driver 2E6A521C-F697-402D-9774-98B2B7E140F3
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E8C0328
+Loading driver at 0x0000E858000 EntryPoint=0x0000E858273 PlatformInitDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E892390
+InstallProtocolInterface: 171E9398-269C-4081-9099-3844E260466C E85C430
+InstallProtocolInterface: A7CED760-C71C-4E1A-ACB1-89604D5216CB E85C518
+InstallProtocolInterface: 41C7F059-081A-4F45-B1F0-C5A988915221 E885E10
+Loading driver BDCE85BB-FBAA-4F4E-9264-501A2C249581
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E8C01A8
+Loading driver at 0x0000E854000 EntryPoint=0x0000E854273 S3SaveStateDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E885690
+InstallProtocolInterface: E857CAF6-C046-45DC-BE3F-EE0765FBA887 E857478
+Loading driver 9622E42C-8E38-4A08-9E8F-54F784652F6B
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E8C0028
+Loading driver at 0x0000E832000 EntryPoint=0x0000E832273 AcpiTableDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E885110
+InstallProtocolInterface: FFE06BDD-6107-46A6-7BB2-5A9C7EC5275C E87BB58
+InstallProtocolInterface: EB97088E-CFDF-49C6-BE4B-D906A5B20E86 E87BB60
+Loading driver A03A9429-C570-4EF9-9E00-C7A673976E5F
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E852DA8
+Loading driver at 0x0000F06E000 EntryPoint=0x0000F06E273 SmmControlDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E853A10
+InstallProtocolInterface: 843DC720-AB1E-42CB-9357-8A0078F3561B F06F8F8
+Loading driver F9D88642-0737-49BC-81B5-6889CD57D9EA
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E852C28
+Loading driver at 0x0000E82F000 EntryPoint=0x0000E82F273 SmbiosDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E853490
+InstallProtocolInterface: 03583FF6-CB36-4940-947E-B9B39F4AFAF7 E830FAC
+Loading driver 2E8CD01A-BDB7-40B4-8376-E7C26EAC21FF
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E852AA8
+Loading driver at 0x0000E82D000 EntryPoint=0x0000E82D273 PciPlatform.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E851F10
+InstallProtocolInterface: 07D75280-27D4-4D69-90D0-5643E238B341 E82E2C8
+Loading driver 348C4D62-BFBD-4882-9ECE-C80BB1C4783B
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E852928
+Loading driver at 0x0000E81C000 EntryPoint=0x0000E81C273 HiiDatabase.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E851990
+InstallProtocolInterface: E9CA4775-8657-47FC-97E7-7ED65A084324 E82BC60
+InstallProtocolInterface: 0FD96974-23AA-4CDC-B9CB-98D17750322A E82BC84
+InstallProtocolInterface: EF9FC172-A1B2-4693-B327-6D32FC416042 E82BC98
+InstallProtocolInterface: 587E72D7-CC50-4F79-8209-CA291FC1A10F E82BCC4
+InstallProtocolInterface: 31A6406A-6BDF-4E46-B2A2-EBAA89C40920 E82BC70
+Loading driver 79CA4208-BBA1-4A9A-8456-E1E66A81484E
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E8527A8
+Loading driver at 0x0000E81A000 EntryPoint=0x0000E81A273 Legacy8259.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E851010
+InstallProtocolInterface: 38321DBA-4FE0-4E17-8AEC-413055EAEDC1 E81B1C4
+Loading driver 6C2004EF-4E0E-4BE4-B14C-340EB4AA5891
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E852628
+Loading driver at 0x0000F06A000 EntryPoint=0x0000F06A273 StatusCodeHandlerRuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E817A90
+Loading driver CA515306-00CE-4032-874E-11B755FF6866
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E8524A8
+Loading driver at 0x0000E818000 EntryPoint=0x0000E818273 DataHubStdErrDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E817690
+Loading driver 6D33944A-EC75-4855-A54D-809C75241F6C
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E852328
+Loading driver at 0x0000E802000 EntryPoint=0x0000E802273 BdsDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E817210
+PlatformBootManagerLibConstructor:>>
+InstallProtocolInterface: 665E3FF6-46CC-11D4-9A38-0090273FC14D E812F44
+Loading driver D58EBCE1-AF26-488D-BE66-C164417F8C13
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E8521A8
+Loading driver at 0x0000E5B4000 EntryPoint=0x0000E5B4273 PciHostBridge.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E801D10
+InstallProtocolInterface: CF8034BE-6768-4D8B-B739-7CCE683A9FBE E801B28
+Address of resource Aperture:  E801910
+
+IIO_resource[0].BusBase:               0
+IIO_resource[0].BusLimit:              FF
+IIO_resource[0].PciResourceMem32Base:  90000000
+IIO_resource[0].PciResourceMem32Limit: AFFFFFFF
+IIO_resource[0].PciResourceMem64Base:  B0000000
+IIO_resource[0].PciResourceMem64Limit: DFFFFFFF
+IIO_resource[0].PciResourceIoBase:     2000
+IIO_resource[0].PciResourceIoLimit:    FFFF
+
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B E5B8240
+InstallProtocolInterface: 2F707EBB-4A1A-11D4-9A38-0090273FC14D E5B3F84
+Loading driver 4D35A5A7-622E-4955-A5D2-CDA812940D74
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E852028
+Loading driver at 0x0000F065000 EntryPoint=0x0000F065273 FwBlockService.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E801190
+Supported SPI Flash device found, Vendor Id: 0xEF, Device ID: 0x4017!
+Fvb base : FFD00400  Attributes : 00000000!
+Fvb base : FFF30000  Attributes : 00000000!
+Fvb base : FFF40000  Attributes : 00000000!
+Fvb base : FFEC0400  Attributes : 00000000!
+Fvb base : FFF30048  Attributes : 00000000!
+Fvb base : FFF3E000  Attributes : 00000000!
+Fvb base : FFD00400  Attributes : 00000000!
+InstallProtocolInterface: 8F644FA9-E850-4DB1-9CE2-0B44698E8DA4 F0DE9B4
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B F0DE994
+InstallProtocolInterface: 220E73B6-6BDB-4413-8405-B974B108619A E5B2C9C
+InstallProtocolInterface: 53A4C71B-B581-4170-91B3-8DB87A4B5C46 F0DE9D4
+InstallProtocolInterface: F496922D-172F-4BBC-A1EB-0EEB949C3486 0
+Fvb base : FFF30000  Attributes : 00000000!
+InstallProtocolInterface: 8F644FA9-E850-4DB1-9CE2-0B44698E8DA4 F0DE934
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B F0DE914
+InstallProtocolInterface: 53A4C71B-B581-4170-91B3-8DB87A4B5C46 F0DE954
+InstallProtocolInterface: F496922D-172F-4BBC-A1EB-0EEB949C3486 0
+Fvb base : FFF40000  Attributes : 00000000!
+Fvb base : FFEC0400  Attributes : 00000000!
+InstallProtocolInterface: 8F644FA9-E850-4DB1-9CE2-0B44698E8DA4 F0DE8B4
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B F0DE894
+InstallProtocolInterface: 220E73B6-6BDB-4413-8405-B974B108619A E5B211C
+InstallProtocolInterface: 53A4C71B-B581-4170-91B3-8DB87A4B5C46 F0DE8D4
+InstallProtocolInterface: F496922D-172F-4BBC-A1EB-0EEB949C3486 0
+Fvb base : FFF30048  Attributes : 00000000!
+Fvb base : FFF3E000  Attributes : 00000000!
+Loading driver EF0C99B6-B1D3-4025-9405-BF6A560FE0E0
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E451DA8
+Loading driver at 0x0000E43A000 EntryPoint=0x0000E43A273 SmbiosMisc.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E450E10
+Loading driver EBF342FE-B1D3-4EF8-957C-8048606FF671
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E451C28
+Loading driver at 0x0000E421000 EntryPoint=0x0000E421273 SetupBrowser.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E44B210
+InstallProtocolInterface: B9D4C360-BCFB-4F9B-9298-53C136982258 E437E18
+InstallProtocolInterface: 1F73B18D-4630-43C1-A1DE-6F80855D7DA4 E437E20
+InstallProtocolInterface: 348C4D62-BFBD-4882-9ECE-C80BB1C4783B 0
+Loading driver 274F0C8F-9E57-41D8-9966-29CCD48D31C2
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E451AA8
+Loading driver at 0x0000E444000 EntryPoint=0x0000E444273 SmmAccess.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E44E090
+SM RAM index[0] startaddr:0FE00000 Size :00000000
+InstallProtocolInterface: C2702B74-800C-4131-8746-8FB5B89CE4AC E446550
+SMM  Base: 0FE00000
+SMM  Size: 00200000
+Loading driver 2FA2A6DA-11D5-4DC3-999A-749648B03C56
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E451928
+Loading driver at 0x0000F060000 EntryPoint=0x0000F060273 PiSmmIpl.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E449B10
+SMM IPL opened SMRAM window
+SMM IPL found SMRAM window FE00000 - FFFFFFF
+SMM IPL loading SMM Core at SMRAM address FFF8000
+SMM IPL calling SMM Core at SMRAM address FFF8273
+InstallProtocolInterface: F4CCBFB7-F6E0-47FD-9DD4-10A8F150C191 F063CE0
+InstallProtocolInterface: C68ED8E2-9DC6-4CBD-9D94-DB65ACC5C332 F063CDC
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E448090
+Loading SMM driver at 0x0000FFF3000 EntryPoint=0x0000FFF3273 ReportStatusCodeRouterSmm.efi
+SmmInstallProtocolInterface: 2FF29FA7-5E80-4ED9-B380-017D3C554FF4 FFF4804
+SmmInstallProtocolInterface: 6AFD2B77-98C1-4ACD-A6F9-8A9439DE0FB1 FFF480C
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E443E10
+Loading SMM driver at 0x0000FFEE000 EntryPoint=0x0000FFEE273 VariableSmm.efi
+SmmInstallProtocolInterface: ED32D533-99E6-4209-9CC0-2D72CDD998A7 FFF2874
+InstallProtocolInterface: ED32D533-99E6-4209-9CC0-2D72CDD998A7 FFF2874
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E443A10
+Loading SMM driver at 0x0000FFC7000 EntryPoint=0x0000FFC7273 PchSpiSmm.efi
+SmmInstallProtocolInterface: D9072C35-EB8F-43AD-A220-34D40E2A8285 FFCCC10
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E443790
+Loading SMM driver at 0x0000FFC5000 EntryPoint=0x0000FFC5273 CpuIo2Smm.efi
+SmmInstallProtocolInterface: 3242A9D8-CE70-4AA0-955D-5E7B140DE4D2 FFC6740
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E443510
+Loading SMM driver at 0x0000FFC3000 EntryPoint=0x0000FFC3273 SmmRuntime.efi
+InstallProtocolInterface: A56897A1-A77F-4600-84DB-22B0A801FA9A FDE9408
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E443110
+Loading SMM driver at 0x0000FFBC000 EntryPoint=0x0000FFBC273 StatusCodeHandlerSmm.efi
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E442E90
+Loading SMM driver at 0x0000FFB7000 EntryPoint=0x0000FFB7273 FwBlockServiceSmm.efi
+Smm Mode: Supported SPI Flash device found, Vendor Id: 0xEF, Device ID: 0x4017!
+Fvb base : FFD00400  Attributes : 00000000!
+Fvb base : FFF30000  Attributes : 00000000!
+Fvb base : FFF40000  Attributes : 00000000!
+Fvb base : FFEC0400  Attributes : 00000000!
+Fvb base : FFF30048  Attributes : 00000000!
+Fvb base : FFF3E000  Attributes : 00000000!
+Fvb base : FFD00400  Attributes : 00000000!
+SmmInstallProtocolInterface: D326D041-BD31-4C01-B5A8-628BE87F0653 FFCC6AC
+Fvb base : FFF30000  Attributes : 00000000!
+SmmInstallProtocolInterface: D326D041-BD31-4C01-B5A8-628BE87F0653 FFCC32C
+Fvb base : FFF40000  Attributes : 00000000!
+Fvb base : FFEC0400  Attributes : 00000000!
+SmmInstallProtocolInterface: D326D041-BD31-4C01-B5A8-628BE87F0653 FFCC22C
+Fvb base : FFF30048  Attributes : 00000000!
+Fvb base : FFF3E000  Attributes : 00000000!
+InstallProtocolInterface: 7A5DBC75-5B2B-4E67-BDE1-D48EEE761562 0
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E442A90
+Loading SMM driver at 0x0000FFB0000 EntryPoint=0x0000FFB0273 SmmFaultTolerantWriteDxe.efi
+SmmInstallProtocolInterface: 3868FC3B-7E45-43A7-906C-4BA47DE1754D FFAD010
+InstallProtocolInterface: 93BA1826-DFFB-45DD-82A7-E7DCAA3BBDF3 0
+InstallProtocolInterface: 3868FC3B-7E45-43A7-906C-4BA47DE1754D 0
+Platform:FlashDeviceSize = 0x00800000 Bytes
+Platform: Protect Region Base:Len 0x00710000:0x00020000
+Platform: Protect Region Base:Len 0x00790000:0x00040000
+Platform: Protect Region Base:Len 0x007E0000:0x00020000
+Platform: Spi Config Locked Down
+Loading driver 9F7DCADE-11EA-448A-A46F-76E003657DD1
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E4517A8
+Loading driver at 0x0000F05D000 EntryPoint=0x0000F05D273 VariableSmmRuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E442310
+InstallProtocolInterface: 1E5668E2-8481-11D4-BCF1-0080C73C8881 0
+InstallProtocolInterface: 6441F818-6362-4E44-B570-7DBA31DD2453 0
+Loading driver 42857F0A-13F2-4B21-8A23-53D3F714B840
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E451628
+Loading driver at 0x0000F059000 EntryPoint=0x0000F059273 CapsuleRuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E3F7C10
+InstallProtocolInterface: 5053697E-2CBC-4819-90D9-0580DEEE5754 0
+Loading driver AD608272-D07F-4964-801E-7BD3B7888652
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E4514A8
+Loading driver at 0x0000F057000 EntryPoint=0x0000F057273 MonotonicCounterRuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E3F7710
+InstallProtocolInterface: 1DA97072-BDDC-4B30-99F1-72A0B56FFF2A 0
+Loading driver 378D7B65-8DA9-4773-B6E4-A47826A833E1
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E451328
+Loading driver at 0x0000F054000 EntryPoint=0x0000F054273 PcRtc.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E3F7210
+PcRtcInit: Read BadTime from RTC, Program RTC with default time.
+InstallProtocolInterface: 27CFAC87-46CC-11D4-9A38-0090273FC14D 0
+Loading driver C7EA9787-CA0A-43B4-B1E5-25EF87391F8D
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E4511A8
+Loading driver at 0x0000E3CE000 EntryPoint=0x0000E3CE273 QncS3Support.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E3F6D10
+InstallProtocolInterface: C7EA9787-CA0A-43B4-B1E5-25EF87391F8D 0
+QncS3SupportEntryPoint() in reserved memory - Begin
+InstallProtocolInterface: E287D20B-D897-4E1E-A5D9-977763936A04 FDE6384
+QncS3SupportEntry Code = 0FDE1010, Size = 00005CA0
+QncS3SupportEntry Contex = 0FDE0000, Size = 00001000
+QncS3BootEvent triggered but not valid.
+QncS3SupportEntryPoint() in reserved memory - End
+Loading driver DAA55048-BC3F-4DD9-999B-F58ABF2BBFCC
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E451028
+Loading driver at 0x0000E3C9000 EntryPoint=0x0000E3C9273 DxePlatform.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E3F6510
+InstallProtocolInterface: 2977064F-AB96-4FA9-8545-F9C40251E07F E3CC7E8
+Loading driver 0F99E33C-CA0C-4AA2-887D-B57EC9050278
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E3C8DA8
+Loading driver at 0x0000E3AC000 EntryPoint=0x0000E3AC273 SaveMemoryConfig.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E3EBC90
+Restored Size is 0xA8
+Loading driver 74D3B506-EE9C-47ED-B749-41261401DA78
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E3C8C28
+Loading driver at 0x0000E3A5000 EntryPoint=0x0000E3A5273 QNCInitDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E3EB810
+ mRootPortConfig: 0xE3AA288,  value1: 0x10100, value2: 0x20100, value3: 0x270002, value4: 0xF4240
+QncS3SetDispatchItem() Start
+QncS3InitPcieRootPortDownstream @ 0x0FDE163C - context  0x0FDE0008
+QncS3SetDispatchItem() End
+InstallProtocolInterface: 70101EAF-0085-440C-B356-8EE36FEF24F0 E3AA650
+InstallProtocolInterface: E49D33ED-513D-4634-B698-6F55AA751C1B E3AA670
+InstallProtocolInterface: 31CE593D-108A-485D-ADB2-78F21F2966BE E3AAF60
+InstallProtocolInterface: 26BACCB3-6F42-11D4-BCE7-0080C73C8881 E3AAF84
+TSEG's memory range: BaseAddress = 0xFE00000, Size = 0x200000
+DOS Area Memory: base = 0x0, length = 0x0, attribute = 0x30000
+ABSEG Memory: base = 0xA0000, length = 0x0, attribute = 0x60000
+Memory base = 0xA0000, length = 0x0, attribute = 0x60000
+Loading driver 40BEAB40-CECE-4909-B133-20A413AE19E9
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E3C8AA8
+Loading driver at 0x0000E398000 EntryPoint=0x0000E398273 CpuMpDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E3C7A90
+InstallProtocolInterface: 3FDDA605-A76E-4F46-AD29-12F4531B3D08 E3A2C4C
+Loading driver F099D67F-71AE-4C36-B2A3-DCEB0EB2B7D8
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E3C8928
+Loading driver at 0x0000E3C5000 EntryPoint=0x0000E3C5273 WatchdogTimer.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E3C7310
+InstallProtocolInterface: 665E3FF5-46CC-11D4-9A38-0090273FC14D E3C5F10
+Loading driver EF17CEE7-267D-4BFD-A257-4A6AB3EE8591
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E3C87A8
+Loading driver at 0x0000E395000 EntryPoint=0x0000E395273 MemorySubClass.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E394D90
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E394110
+Loading SMM driver at 0x0000FF9F000 EntryPoint=0x0000FF9F273 PiSmmCpuDxeSmm.efi
+SMRR Base: 0xFE00000, SMRR Size: 0x200000
+CPU[000]  APIC ID=0000  SMBASE=0FF88000  SaveState=0FF97C00  Size=00000400
+InstallProtocolInterface: 26EEB3DE-B689-492E-80F0-BE8BD7DA4BA7 FFA93F0
+SMM IPL registered SMM Entry Point address FFF84D5
+SmmInstallProtocolInterface: EB346B97-975F-4A9F-8B22-F8E92BB3D569 FFA84E8
+SmmInstallProtocolInterface: D5950985-8BE3-4B1C-B63F-95D15AB3B65F FFA84DC
+SmmInstallProtocolInterface: 9DB72E22-9262-4A18-8FE0-85E03DFA9673 FFA84C0
+SmmInstallProtocolInterface: 1D202CAB-C8AB-4D5C-94F7-3CFCC0D3D335 FFA97EC
+SMM S3 SMRAM Structure = EFDB9E8
+SMM S3 Structure = FE00F8C
+SMM CPU Module exit from SMRAM with EFI_SUCCESS
+SMM IPL closed SMRAM window
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E393C90
+Loading SMM driver at 0x0000FF78000 EntryPoint=0x0000FF78273 QNCSmmDispatcher.efi
+SmmLockBoxSmmLib SmmLockBoxSmmConstructuor - Enter
+SmmLockBoxSmmLib SmmLockBoxContext - already installed
+SmmLockBoxSmmLib SmmLockBoxSmmConstructuor - Exit
+SmmInstallProtocolInterface: 456D2859-A84B-4E47-A2EE-3276D886997D FF7C34C
+SmmInstallProtocolInterface: 18A3C6DC-5EEA-48C8-A1C1-B53389F98999 FF7C368
+SmmInstallProtocolInterface: 25566B03-B577-4CBF-958C-ED663EA24380 FF7C384
+SmmInstallProtocolInterface: ADF3A128-416D-4060-8DDF-30A1D7AAB699 FF7C3A0
+SmmInstallProtocolInterface: 1B1183FA-1823-46A7-8872-9C578755409D FF7C3BC
+SmmInstallProtocolInterface: 4CEC368E-8E8E-4D71-8BE1-958C45FC8A53 FF7C3D8
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E393A10
+Loading SMM driver at 0x0000FF75000 EntryPoint=0x0000FF75273 SmmLockBox.efi
+SmmLockBoxSmmLib SmmLockBoxSmmConstructuor - Enter
+SmmLockBoxSmmLib SmmLockBoxContext - already installed
+SmmLockBoxSmmLib SmmLockBoxSmmConstructuor - Exit
+InstallProtocolInterface: BD445D79-B7AD-4F04-9AD8-29BD2040EB3C 0
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E393610
+Loading SMM driver at 0x0000FF73000 EntryPoint=0x0000FF73273 PiSmmCommunicationSmm.efi
+SmmCommunication SwSmi: 1
+SmmCommunicationAcpiTable: FBD5000
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E393310
+Loading SMM driver at 0x0000FF63000 EntryPoint=0x0000FF63273 SMIFlashDxe.efi
+SmmLockBoxSmmLib SmmLockBoxSmmConstructuor - Enter
+SmmLockBoxSmmLib SmmLockBoxContext - already installed
+SmmLockBoxSmmLib SmmLockBoxSmmConstructuor - Exit
+TSEG's memory range: BaseAddress = 0xFE00000, Size = 0x200000
+Locking HMBOUND at: = 0x10000000
+Processor: 0: MSR: 1A0, Bit Start: 34, Bit Length: 1, Value: 0
+Capability:       40
+Configuration: FFFFFFFF
+Setting:       40
+Get cache data from CPUID EAX = 4
+Callback: PcdPlatformCpuSocketNames is set
+Callback: PcdPlatformCpuAssetTags is set
+Loading driver FA20568B-548B-4B2B-81EF-1BA08D4A3CEC
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E3C84A8
+Loading driver at 0x0000E389000 EntryPoint=0x0000E389273 BootScriptExecutorDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E392A10
+InstallProtocolInterface: FA20568B-548B-4B2B-81EF-1BA08D4A3CEC 0
+SmmLockBoxDxeLib SaveLockBox - Enter
+SmmLockBox SmmLockBoxHandler Enter
+SmmLockBox LockBoxParameterHeader - E9D7C3C
+SmmLockBox Command - 1
+SmmLockBoxSmmLib SaveLockBox - Enter
+SmmLockBoxSmmLib SaveLockBox - Exit (Success)
+SmmLockBox SmmLockBoxHandler Exit
+SmmLockBoxDxeLib SaveLockBox - Exit (Success)
+SmmLockBoxDxeLib SaveLockBox - Enter
+SmmLockBox SmmLockBoxHandler Enter
+SmmLockBox LockBoxParameterHeader - E9D7C3C
+SmmLockBox Command - 1
+SmmLockBoxSmmLib SaveLockBox - Enter
+SmmLockBoxSmmLib SaveLockBox - Exit (Success)
+SmmLockBox SmmLockBoxHandler Exit
+SmmLockBoxDxeLib SaveLockBox - Exit (Success)
+SmmLockBoxDxeLib SetLockBoxAttributes - Enter
+SmmLockBox SmmLockBoxHandler Enter
+SmmLockBox LockBoxParameterHeader - E9D7C44
+SmmLockBox Command - 4
+SmmLockBoxSmmLib SetLockBoxAttributes - Enter
+SmmLockBoxSmmLib SetLockBoxAttributes - Exit (Success)
+SmmLockBox SmmLockBoxHandler Exit
+SmmLockBoxDxeLib SetLockBoxAttributes - Exit (Success)
+SmmLockBoxDxeLib SaveLockBox - Enter
+SmmLockBox SmmLockBoxHandler Enter
+SmmLockBox LockBoxParameterHeader - E9D7D4C
+SmmLockBox Command - 1
+SmmLockBoxSmmLib SaveLockBox - Enter
+SmmLockBoxSmmLib SaveLockBox - Exit (Success)
+SmmLockBox SmmLockBoxHandler Exit
+SmmLockBoxDxeLib SaveLockBox - Exit (Success)
+SmmLockBoxDxeLib SetLockBoxAttributes - Enter
+SmmLockBox SmmLockBoxHandler Enter
+SmmLockBox LockBoxParameterHeader - E9D7D54
+SmmLockBox Command - 4
+SmmLockBoxSmmLib SetLockBoxAttributes - Enter
+SmmLockBoxSmmLib SetLockBoxAttributes - Exit (Success)
+SmmLockBox SmmLockBoxHandler Exit
+SmmLockBoxDxeLib SetLockBoxAttributes - Exit (Success)
+Loading driver 2BDED685-F733-455F-A840-43A22B791FB3
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E3C8328
+Loading driver at 0x0000E386000 EntryPoint=0x0000E386273 AcpiS3SaveDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E392410
+InstallProtocolInterface: 125F2DE1-FB85-440C-A54C-4D99358A8D38 E387E24
+Loading driver 368B3649-F204-4CD0-89A8-091077C070FA
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E3C81A8
+Loading driver at 0x0000E381000 EntryPoint=0x0000E381273 AcpiPlatform.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E380F10
+InstallProtocolInterface: 074E1E48-8132-47A1-8C2C-3F14AD9A66DC E384B80
+Loading driver 93B80004-9FB3-11D4-9A3A-0090273FC14D
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E36DC28
+Loading driver at 0x0000E35D000 EntryPoint=0x0000E35D273 PciBusDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E373E10
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 E36969C
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D E36974C
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 E369740
+Loading driver BDFE430E-8F2A-4DB0-9991-6F856594777E
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E36DAA8
+Loading driver at 0x0000E356000 EntryPoint=0x0000E356273 EhciDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E373590
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 E35C0C4
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D E35C988
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 E35C97C
+Loading driver 4ACA697E-F883-446F-98F7-096416FFFFFF
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E36D928
+Loading driver at 0x0000E34F000 EntryPoint=0x0000E34F273 OhciDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E373010
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 E3553B8
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D E355540
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 E355534
+Loading driver 240612B7-A063-11D4-9A3A-0090273FC14D
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E36D7A8
+Loading driver at 0x0000E347000 EntryPoint=0x0000E347273 UsbBusDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E376A90
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 E34CDA4
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D E34D224
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 E34D218
+Loading driver 2D2E62CF-9ECF-43B7-8219-94E7FC713DFE
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E36D628
+Loading driver at 0x0000E342000 EntryPoint=0x0000E342273 UsbKbDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E376510
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 E3460A8
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D E346918
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 E34690C
+Loading driver 2D2E62AA-9ECF-43B7-8219-94E7FC713DFE
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E36D4A8
+Loading driver at 0x0000E33F000 EntryPoint=0x0000E33F273 UsbMouseDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E375F90
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 E341764
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D E3417C4
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 E3417B8
+Loading driver 9FB4B4A7-42C0-4BCD-8540-9BCC6711F83E
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E36D328
+Loading driver at 0x0000E33A000 EntryPoint=0x0000E33A273 UsbMassStorageDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E375A10
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 E33E0B0
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D E33E454
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 E33E448
+Loading driver 90A330BD-6F89-4900-933A-C25EB4356348
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E36D1A8
+Loading driver at 0x0000E336000 EntryPoint=0x0000E336273 SDController.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E375490
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 E338DE4
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D E338E5C
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 E338E50
+Loading driver 80897901-91F6-4EFE-9579-3353A0C02DAB
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E36D028
+Loading driver at 0x0000E330000 EntryPoint=0x0000E330273 SDMediaDevice.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E374F10
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 E3344F4
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D E3350AC
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 E3350A0
+Loading driver 6B38F7B4-AD98-40E9-9093-ACA2B5A253C4
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E32FDA8
+Loading driver at 0x0000E32A000 EntryPoint=0x0000E32A273 DiskIoDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E374990
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 E32B980
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D E32B9F0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 E32B9E4
+Loading driver 1FA1F39E-FEFF-4AAE-BD7B-38A070A3B609
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E32FC28
+Loading driver at 0x0000E325000 EntryPoint=0x0000E325273 PartitionDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E374410
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 E328DD8
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D E328E60
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 E328E54
+Loading driver 51CCF399-4FDF-4E55-A45B-E123F84D456A
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E32FAA8
+Loading driver at 0x0000E32C000 EntryPoint=0x0000E32C273 ConPlatformDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E321E90
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 E32E0F4
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D E32E17C
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 E32E170
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 E32E0DC
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D E32E17C
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 E32E170
+Loading driver 408EDCEC-CF6D-477C-A5A8-B4844E3DE281
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E32F928
+Loading driver at 0x0000E31B000 EntryPoint=0x0000E31B273 ConSplitterDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E321610
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 E320120
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D E3205C0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 E3205B4
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 E3200D8
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D E3205A8
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 E32059C
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 E3200C0
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D E320590
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 E320584
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 E320108
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D E320578
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 E32056C
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 E3200F0
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D E320560
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 E320554
+InstallProtocolInterface: 387477C1-69C7-11D2-8E39-00A0C969723B E3202A4
+InstallProtocolInterface: DD9E7534-7762-4698-8C14-F58517A625AA E3202BC
+InstallProtocolInterface: 31878C87-0B75-11D5-9A4F-0090273FC14D E3202E8
+InstallProtocolInterface: 8D59D32B-C655-4AE9-9B15-F25904992A43 E320324
+InstallProtocolInterface: 387477C2-69C7-11D2-8E39-00A0C969723B E3201E4
+InstallProtocolInterface: 387477C2-69C7-11D2-8E39-00A0C969723B E320144
+Loading driver CCCB0C28-4B24-11D5-9A5A-0090273FC14D
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E32F4A8
+Loading driver at 0x0000E316000 EntryPoint=0x0000E316273 GraphicsConsoleDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E323C90
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 E318D40
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D E318EBC
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 E318EB0
+Loading driver 9E863906-A40F-4875-977F-5B93FF237FC6
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E32F328
+Loading driver at 0x0000E30A000 EntryPoint=0x0000E30A273 TerminalDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E323510
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 E30F230
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D E30F29C
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 E30F290
+Loading driver CD3BAFB6-50FB-4FE8-8E4E-AB74D2C1A600
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E32F1A8
+Loading driver at 0x0000E314000 EntryPoint=0x0000E314273 EnglishDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E322F90
+InstallProtocolInterface: 1D85CD7F-F43D-11D2-9A0C-0090273FC14D E3150D8
+InstallProtocolInterface: A4C751FC-23AE-4C3E-92E9-4964CF63F349 E3150BC
+Loading driver 961578FE-B6B7-44C3-AF35-6BC705CD2B1F
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E32F028
+Loading driver at 0x0000E303000 EntryPoint=0x0000E303273 Fat.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E322910
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 E309288
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D E309348
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 E30933C
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E322590
+Loading SMM driver at 0x0000FF53000 EntryPoint=0x0000FF53273 AcpiSmmPlatform.efi
+SmmLockBoxSmmLib SmmLockBoxSmmConstructuor - Enter
+SmmLockBoxSmmLib SmmLockBoxContext - already installed
+SmmLockBoxSmmLib SmmLockBoxSmmConstructuor - Exit
+SMM  Base: 0FE00000
+SMM  Size: 00200000
+S3 Memory  Base:    0F1BF000
+S3 Memory  Size:    00008000
+S3 SysMemoryLength: 0FDF0000
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E322310
+Loading SMM driver at 0x0000FF50000 EntryPoint=0x0000FF50273 SmmPowerManagement.efi
+SmmLockBoxSmmLib SmmLockBoxSmmConstructuor - Enter
+SmmLockBoxSmmLib SmmLockBoxContext - already installed
+SmmLockBoxSmmLib SmmLockBoxSmmConstructuor - Exit
+[Bds] Entry...
+Variable Driver Auto Update PlatformLang, PlatformLang:en, Lang:eng
+[Bds]RegisterKeyNotify: 0011/0000 80000000/00 Success
+[Bds]RegisterKeyNotify: 0011/0000 80000000/00 Success
+Secure Lock DISABLED Secure Boot Support DISABLED Secure Boot DISABLED
+PCI Bus First Scanning
+PciBus: Discovered PCI @ [00|00|00]
+
+PciBus: Discovered PCI @ [00|14|00]
+   BAR[0]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x10
+
+PciBus: Discovered PCI @ [00|14|01]
+   BAR[0]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x10
+   BAR[1]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x14
+
+PciBus: Discovered PCI @ [00|14|02]
+   BAR[0]: Type =  Mem32; Alignment = 0x1FFF;	Length = 0x2000;	Offset = 0x10
+
+PciBus: Discovered PCI @ [00|14|03]
+   BAR[0]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x10
+
+PciBus: Discovered PCI @ [00|14|04]
+   BAR[0]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x10
+
+PciBus: Discovered PCI @ [00|14|05]
+   BAR[0]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x10
+   BAR[1]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x14
+
+PciBus: Discovered PCI @ [00|14|06]
+   BAR[0]: Type =  Mem32; Alignment = 0x1FFF;	Length = 0x2000;	Offset = 0x10
+
+PciBus: Discovered PCI @ [00|14|07]
+   BAR[0]: Type =  Mem32; Alignment = 0x1FFF;	Length = 0x2000;	Offset = 0x10
+
+PciBus: Discovered PCI @ [00|15|00]
+   BAR[0]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x10
+
+PciBus: Discovered PCI @ [00|15|01]
+   BAR[0]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x10
+
+PciBus: Discovered PCI @ [00|15|02]
+   BAR[0]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x10
+   BAR[1]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x14
+
+PciBus: Discovered PPB @ [00|17|00]
+
+PciBus: Discovered PPB @ [00|17|00]
+
+PciBus: Discovered PPB @ [00|17|01]
+
+PciBus: Discovered PPB @ [00|17|01]
+
+PciBus: Discovered PCI @ [00|1F|00]
+
+PciBus: Discovered PCI @ [00|00|00]
+
+PciBus: Discovered PCI @ [00|14|00]
+   BAR[0]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x10
+
+PciBus: Discovered PCI @ [00|14|01]
+   BAR[0]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x10
+   BAR[1]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x14
+
+PciBus: Discovered PCI @ [00|14|02]
+   BAR[0]: Type =  Mem32; Alignment = 0x1FFF;	Length = 0x2000;	Offset = 0x10
+
+PciBus: Discovered PCI @ [00|14|03]
+   BAR[0]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x10
+
+PciBus: Discovered PCI @ [00|14|04]
+   BAR[0]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x10
+
+PciBus: Discovered PCI @ [00|14|05]
+   BAR[0]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x10
+   BAR[1]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x14
+
+PciBus: Discovered PCI @ [00|14|06]
+   BAR[0]: Type =  Mem32; Alignment = 0x1FFF;	Length = 0x2000;	Offset = 0x10
+
+PciBus: Discovered PCI @ [00|14|07]
+   BAR[0]: Type =  Mem32; Alignment = 0x1FFF;	Length = 0x2000;	Offset = 0x10
+
+PciBus: Discovered PCI @ [00|15|00]
+   BAR[0]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x10
+
+PciBus: Discovered PCI @ [00|15|01]
+   BAR[0]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x10
+
+PciBus: Discovered PCI @ [00|15|02]
+   BAR[0]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x10
+   BAR[1]: Type =  Mem32; Alignment = 0xFFF;	Length = 0x1000;	Offset = 0x14
+
+PciBus: Discovered PPB @ [00|17|00]
+
+PciBus: Discovered PPB @ [00|17|01]
+
+PciBus: Discovered PCI @ [00|1F|00]
+
+ ptr->ResType:0 
+  ptr->AddrLen:0x100000 AddrRangeMin:0x0 AddrRangeMax:0xFFFFF
+
+Address of RootBridgeInstance:   E5B3E10)
+  Signature:              62703265
+  Bus Number Assigned:    1
+  Bus Scan Count:         1
+
+
+Resource Type to assign :   1
+  Length to allocate:       100000
+  Aligment:                 FFFFF
+Resource Type Assigned:   1
+  Base Address Assigned: 90000000
+  Length Assigned:       100000
+PciBus: Resource Map for Root Bridge PciRoot(0x0)
+Type =  Mem32; Base = 0x90000000;	Length = 0x100000;	Alignment = 0xFFFFF
+ Base = 0x90000000;	Length = 0x2000;	Alignment = 0x1FFF;	Owner = PCI  [00|14|07:10]
+ Base = 0x90002000;	Length = 0x2000;	Alignment = 0x1FFF;	Owner = PCI  [00|14|06:10]
+ Base = 0x90004000;	Length = 0x2000;	Alignment = 0x1FFF;	Owner = PCI  [00|14|02:10]
+ Base = 0x90006000;	Length = 0x1000;	Alignment = 0xFFF;	Owner = PCI  [00|15|02:14]
+ Base = 0x90007000;	Length = 0x1000;	Alignment = 0xFFF;	Owner = PCI  [00|15|02:10]
+ Base = 0x90008000;	Length = 0x1000;	Alignment = 0xFFF;	Owner = PCI  [00|15|01:10]
+ Base = 0x90009000;	Length = 0x1000;	Alignment = 0xFFF;	Owner = PCI  [00|15|00:10]
+ Base = 0x9000A000;	Length = 0x1000;	Alignment = 0xFFF;	Owner = PCI  [00|14|05:14]
+ Base = 0x9000B000;	Length = 0x1000;	Alignment = 0xFFF;	Owner = PCI  [00|14|05:10]
+ Base = 0x9000C000;	Length = 0x1000;	Alignment = 0xFFF;	Owner = PCI  [00|14|04:10]
+ Base = 0x9000D000;	Length = 0x1000;	Alignment = 0xFFF;	Owner = PCI  [00|14|03:10]
+ Base = 0x9000E000;	Length = 0x1000;	Alignment = 0xFFF;	Owner = PCI  [00|14|01:14]
+ Base = 0x9000F000;	Length = 0x1000;	Alignment = 0xFFF;	Owner = PCI  [00|14|01:10]
+ Base = 0x90010000;	Length = 0x1000;	Alignment = 0xFFF;	Owner = PCI  [00|14|00:10]
+
+PciBus: Resource Map for Bridge [00|17|00]
+
+PciBus: Resource Map for Bridge [00|17|01]
+
+InstallProtocolInterface: 30CFE3E7-3DE1-4586-BE20-DEABA1B3B793 0
+Ioh Gpio Controller Init for PlatType=0x06
+Resetting Cypress Expander
+Ioh MAC [B:0, D:20, F:6] VER:1037 ADDR:98-4F-EE-01-38-6F
+Ioh MAC [B:0, D:20, F:7] VER:1037 ADDR:00-00-6C-0D-0E-01
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B E313110
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A E302018
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B E313190
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A E302318
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B E313210
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A E302618
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B E313290
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A E300C18
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B E313310
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A E300918
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B E313390
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A E300618
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B E313410
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A E300318
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B E313490
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A E300018
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B E313510
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A E2FFC18
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B E313590
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A E2FF918
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B E2FEF90
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A E2FF618
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B E2FEF10
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A E2FF318
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B E2FEE90
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A E2FF018
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B E2FEE10
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A E2FDC18
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B E2FED90
+InstallProtocolInterface: 4CF5B200-68B8-4CA5-9EEC-B23E3F50029A E2FD918
+[Bds]RegisterKeyNotify: 0000/000D 80000000/00 Success
+InstallProtocolInterface: 8F644FA9-E850-4DB1-9CE2-0B44698E8DA4 E2FA61C
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B E2FA090
+InstallProtocolInterface: 220E73B6-6BDB-4413-8405-B974B108619A E2F9D1C
+DxeSecurityVerifyFv - CurrentFvAddress=0xFF800400
+SecurityAuthenticateKeyModule Result:0 DebugCode:0x00000000: FatalCode:0x00000000
+SecurityAuthenticateImage RomResult:1 DebugCode:0x00000000: FatalCode:0x00000000
+[PlatformBds] Add Key Boot Device List Status = Already started, Option 2
+S3Ready!
+SmmLockBoxDxeLib SaveLockBox - Enter
+SmmLockBox SmmLockBoxHandler Enter
+SmmLockBox LockBoxParameterHeader - E9D7DFC
+SmmLockBox Command - 1
+SmmLockBoxSmmLib SaveLockBox - Enter
+SmmLockBoxSmmLib SaveLockBox - Exit (Success)
+SmmLockBox SmmLockBoxHandler Exit
+SmmLockBoxDxeLib SaveLockBox - Exit (Success)
+SmmLockBoxDxeLib SetLockBoxAttributes - Enter
+SmmLockBox SmmLockBoxHandler Enter
+SmmLockBox LockBoxParameterHeader - E9D7E04
+SmmLockBox Command - 4
+SmmLockBoxSmmLib SetLockBoxAttributes - Enter
+SmmLockBoxSmmLib SetLockBoxAttributes - Exit (Success)
+SmmLockBox SmmLockBoxHandler Exit
+SmmLockBoxDxeLib SetLockBoxAttributes - Exit (Success)
+AcpiS3Context: AcpiFacsTable is 0x F1C7000
+AcpiS3Context: IdtrProfile is 0x F1BD800
+AcpiS3Context: S3NvsPageTableAddress is 0x       0
+AcpiS3Context: S3DebugBufferAddress is 0x F1B4000
+SmmLockBoxDxeLib SaveLockBox - Enter
+SmmLockBox SmmLockBoxHandler Enter
+SmmLockBox LockBoxParameterHeader - E9D7DFC
+SmmLockBox Command - 1
+SmmLockBoxSmmLib SaveLockBox - Enter
+SmmLockBoxSmmLib SaveLockBox - Exit (Success)
+SmmLockBox SmmLockBoxHandler Exit
+SmmLockBoxDxeLib SaveLockBox - Exit (Success)
+SmmLockBoxDxeLib SaveLockBox - Enter
+SmmLockBox SmmLockBoxHandler Enter
+SmmLockBox LockBoxParameterHeader - E9D7DFC
+SmmLockBox Command - 1
+SmmLockBoxSmmLib SaveLockBox - Enter
+SmmLockBoxSmmLib SaveLockBox - Exit (Success)
+SmmLockBox SmmLockBoxHandler Exit
+SmmLockBoxDxeLib SaveLockBox - Exit (Success)
+SmmLockBoxDxeLib SetLockBoxAttributes - Enter
+SmmLockBox SmmLockBoxHandler Enter
+SmmLockBox LockBoxParameterHeader - E9D7E04
+SmmLockBox Command - 4
+SmmLockBoxSmmLib SetLockBoxAttributes - Enter
+SmmLockBoxSmmLib SetLockBoxAttributes - Exit (Success)
+SmmLockBox SmmLockBoxHandler Exit
+SmmLockBoxDxeLib SetLockBoxAttributes - Exit (Success)
+InstallProtocolInterface: D088A413-0A70-4217-BA55-9A3CB65C41B3 0
+SaveLockBox QncS3Code = 0FDE1010, Size = 00005CA0
+SmmLockBoxDxeLib SaveLockBox - Enter
+SmmLockBox SmmLockBoxHandler Enter
+SmmLockBox LockBoxParameterHeader - E9D7D0C
+SmmLockBox Command - 1
+SmmLockBoxSmmLib SaveLockBox - Enter
+SmmLockBoxSmmLib SaveLockBox - Exit (Success)
+SmmLockBox SmmLockBoxHandler Exit
+SmmLockBoxDxeLib SaveLockBox - Exit (Success)
+SmmLockBoxDxeLib SetLockBoxAttributes - Enter
+SmmLockBox SmmLockBoxHandler Enter
+SmmLockBox LockBoxParameterHeader - E9D7D14
+SmmLockBox Command - 4
+SmmLockBoxSmmLib SetLockBoxAttributes - Enter
+SmmLockBoxSmmLib SetLockBoxAttributes - Exit (Success)
+SmmLockBox SmmLockBoxHandler Exit
+SmmLockBoxDxeLib SetLockBoxAttributes - Exit (Success)
+SaveLockBox QncS3Context = 0FDE0000, Size = 00001000
+SmmLockBoxDxeLib SaveLockBox - Enter
+SmmLockBox SmmLockBoxHandler Enter
+SmmLockBox LockBoxParameterHeader - E9D7D0C
+SmmLockBox Command - 1
+SmmLockBoxSmmLib SaveLockBox - Enter
+SmmLockBoxSmmLib SaveLockBox - Exit (Success)
+SmmLockBox SmmLockBoxHandler Exit
+SmmLockBoxDxeLib SaveLockBox - Exit (Success)
+SmmLockBoxDxeLib SetLockBoxAttributes - Enter
+SmmLockBox SmmLockBoxHandler Enter
+SmmLockBox LockBoxParameterHeader - E9D7D14
+SmmLockBox Command - 4
+SmmLockBoxSmmLib SetLockBoxAttributes - Enter
+SmmLockBoxSmmLib SetLockBoxAttributes - Exit (Success)
+SmmLockBox SmmLockBoxHandler Exit
+SmmLockBoxDxeLib SetLockBoxAttributes - Exit (Success)
+Loading driver 3FE2A8A3-C400-48F8-832F-7881A394C250
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E301C28
+Loading driver at 0x0000E2A6000 EntryPoint=0x0000E2A6273 IohInitDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E2F9810
+Loading driver BF40C9D7-C415-41C2-9EC9-DA6E07878520
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E301AA8
+Loading driver at 0x0000E2A2000 EntryPoint=0x0000E2A2273 IohSerialDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E2F9410
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 E2A51C0
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D E2A525C
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 E2A5250
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B E2A1B90
+InstallProtocolInterface: BB25CF6F-F1D4-11D2-9A0C-0090273FC1FD E2FFF18
+InstallProtocolInterface: 9E863906-A40F-4875-977F-5B93FF237FC6 E2A1710
+Terminal - Mode 0, Column = 80, Row = 25
+Terminal - Mode 1, Column = 80, Row = 50
+Terminal - Mode 2, Column = 100, Row = 31
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B E2A1210
+InstallProtocolInterface: 387477C1-69C7-11D2-8E39-00A0C969723B E301F24
+InstallProtocolInterface: DD9E7534-7762-4698-8C14-F58517A625AA E301F9C
+[Bds]RegisterKeyNotify: 0011/0000 80000000/00 Success
+[Bds]RegisterKeyNotify: 0000/000D 80000000/00 Success
+InstallProtocolInterface: 387477C2-69C7-11D2-8E39-00A0C969723B E301F30
+InstallProtocolInterface: D3B36F2B-D551-11D4-9A46-0090273FC14D 0
+InstallProtocolInterface: D3B36F2C-D551-11D4-9A46-0090273FC14D 0
+EhcCreateUsb2Hc: capability length 16
+InstallProtocolInterface: 3E745226-9818-45B6-A2AC-D7CD0E8BA2BC E312C14
+EhcDriverBindingStart: EHCI started for controller @ E2FC810
+EhcReset: exit status Success
+EhcGetState: current state 1
+InstallProtocolInterface: 240612B7-A063-11D4-9A3A-0090273FC14D E36E498
+EhcGetCapability: 2 ports, 64 bit 0
+UsbRootHubInit: root hub E312710 - max speed 2, 2 ports
+UsbBusStart: usb bus started on E2FC810, root hub E312710
+InstallProtocolInterface: F5089266-1AA0-4953-97D8-562F8A73B519 E29AC14
+InstallProtocolInterface: 240612B7-A063-11D4-9A3A-0090273FC14D E36E018
+UsbRootHubInit: root hub E312110 - max speed 0, 2 ports
+UsbBusStart: usb bus started on E2FC510, root hub E312110
+[PlatformBds]BootMode = 2
+InstallProtocolInterface: B63F8EC7-A9C9-4472-A4C0-4D8BF365CC51 E299C94
+DetectCardAndInitHost: Find Cards 
+DetectCardAndInitHost: SetHostVoltage 3.3V 
+DetectCardAndInitHost set voltages: [done]
+SDIO:DividedClockModeBits: 10bit mode Want 400000Hz Got 396825Hz bits = 3F00
+Base Clock In MHz: 50
+Data write to MMIO_CLKCTL: 0x3F01 
+Bus Width is 1-bit ... 
+SendCommand: Command Index = 0 
+Transfer mode read  = 0x0 
+Transfer mode write = 0x0 
+SendCommand: Command Index = 8 
+Transfer mode read  = 0x0 
+Transfer mode write = 0x0 
+SendCommand: Command Index = 55 
+Transfer mode read  = 0x0 
+Transfer mode write = 0x0 
+SendCommand: Command Index = 41 
+Transfer mode read  = 0x0 
+Transfer mode write = 0x0 
+SendCommand: Command Index = 55 
+Transfer mode read  = 0x0 
+Transfer mode write = 0x0 
+SendCommand: Command Index = 41 
+Transfer mode read  = 0x0 
+Transfer mode write = 0x0 
+SendCommand: Command Index = 55 
+Transfer mode read  = 0x0 
+Transfer mode write = 0x0 
+SendCommand: Command Index = 41 
+Transfer mode read  = 0x0 
+Transfer mode write = 0x0 
+SendCommand: Command Index = 55 
+Transfer mode read  = 0x0 
+Transfer mode write = 0x0 
+SendCommand: Command Index = 41 
+Transfer mode read  = 0x0 
+Transfer mode write = 0x0 
+SD_SEND_OP_COND, SD 2.0 or above standard card was identified
+SD_SEND_OP_COND, SD 2.0 or above high capacity card was identified
+SendCommand: Command Index = 2 
+Transfer mode read  = 0x0 
+Transfer mode write = 0x0 
+SendCommand: Command Index = 3 
+Transfer mode read  = 0x0 
+Transfer mode write = 0x0 
+SendCommand: Command Index = 9 
+Transfer mode read  = 0x0 
+Transfer mode write = 0x0 
+CardData->CSDRegister.SPEC_VERS = 0x0
+CardData->CSDRegister.CSD_STRUCTURE = 0x1
+SDIO:DividedClockModeBits: 10bit mode Want 25000000Hz Got 25000000Hz bits = 0100
+Base Clock In MHz: 50
+Data write to MMIO_CLKCTL: 0x0101 
+SendCommand: Command Index = 7 
+Transfer mode read  = 0x0 
+Transfer mode write = 0x0 
+SendCommand: Command Index = 13 
+Transfer mode read  = 0x0 
+Transfer mode write = 0x0 
+SendCommand: Command Index = 55 
+Transfer mode read  = 0x0 
+Transfer mode write = 0x0 
+SendCommand: Command Index = 42 
+Transfer mode read  = 0x0 
+Transfer mode write = 0x0 
+SendCommand: Command Index = 55 
+Transfer mode read  = 0x0 
+Transfer mode write = 0x0 
+SendCommand: Command Index = 6 
+Transfer mode read  = 0x0 
+Transfer mode write = 0x0 
+Bus Width is 4-bit ... 
+SendCommand: Command Index = 6 
+Transfer mode read  = 0x0 
+Transfer mode write = 0x11 
+SendCommand: Command Index = 6 
+Transfer mode read  = 0x11 
+Transfer mode write = 0x11 
+SDIO:DividedClockModeBits: 10bit mode Want 50000000Hz Got 50000000Hz bits = 0000
+Base Clock In MHz: 50
+SDIO: Quirk never set High Speed Enable bit
+Data write to MMIO_CLKCTL: 0x0001 
+SendCommand: Command Index = 16 
+Transfer mode read  = 0x11 
+Transfer mode write = 0x11 
+Block length on the host controller: 512 
+InstallProtocolInterface: 964E5B21-6459-11D2-8E39-00A0C969723B E298598
+InstallProtocolInterface: CE345171-BA0B-11D2-8E4F-00A0C969723B E299418
+ BlockSize : 512 
+ LastBlock : 3B723FF 
+Read(LBA=00000000, Buffer=0E961790, Size=00000200)
+SendCommand: Command Index = 17 
+Transfer mode read  = 0x11 
+Transfer mode write = 0x11 
+Read(LBA=00000000, Buffer=0E961790, Size=00000200)
+SendCommand: Command Index = 17 
+Transfer mode read  = 0x11 
+Transfer mode write = 0x11 
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B E299010
+InstallProtocolInterface: 964E5B21-6459-11D2-8E39-00A0C969723B E297F20
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B E296D90
+InstallProtocolInterface: 964E5B21-6459-11D2-8E39-00A0C969723B E297E20
+InstallProtocolInterface: CE345171-BA0B-11D2-8E4F-00A0C969723B E296918
+ BlockSize : 512 
+ LastBlock : 3789FFF 
+Read(LBA=00000800, Buffer=0E961790, Size=00000200)
+SendCommand: Command Index = 17 
+Transfer mode read  = 0x11 
+Transfer mode write = 0x11 
+Read(LBA=00000800, Buffer=0E961790, Size=00000200)
+SendCommand: Command Index = 17 
+Transfer mode read  = 0x11 
+Transfer mode write = 0x11 
+Read(LBA=00000800, Buffer=0E28C010, Size=00000200)
+SendCommand: Command Index = 17 
+Transfer mode read  = 0x11 
+Transfer mode write = 0x11 
+Read(LBA=00000820, Buffer=0E28C010, Size=00000200)
+SendCommand: Command Index = 17 
+Transfer mode read  = 0x11 
+Transfer mode write = 0x11 
+Read(LBA=00000801, Buffer=0E295088, Size=00000200)
+SendCommand: Command Index = 17 
+Transfer mode read  = 0x11 
+Transfer mode write = 0x11 
+InstallProtocolInterface: 964E5B22-6459-11D2-8E39-00A0C969723B E295020
+InstallProtocolInterface: CE345171-BA0B-11D2-8E4F-00A0C969723B E296218
+ BlockSize : 512 
+ LastBlock : 3E77FF 
+Read(LBA=0378A800, Buffer=0E961790, Size=00000200)
+SendCommand: Command Index = 17 
+Transfer mode read  = 0x11 
+Transfer mode write = 0x11 
+Read(LBA=0378A800, Buffer=0E961790, Size=00000200)
+SendCommand: Command Index = 17 
+Transfer mode read  = 0x11 
+Transfer mode write = 0x11 
+Read(LBA=0378A800, Buffer=0DE09010, Size=00000200)
+SendCommand: Command Index = 17 
+Transfer mode read  = 0x11 
+Transfer mode write = 0x11 
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B DE13990
+InstallProtocolInterface: BB25CF6F-F1D4-11D2-9A0C-0090273FC1FD E297D18
+ BlockSize : 512 
+ LastBlock : 3B723FF 
+Read(LBA=00000000, Buffer=0E961790, Size=00000200)
+SendCommand: Command Index = 17 
+Transfer mode read  = 0x11 
+Transfer mode write = 0x11 
+Read(LBA=00000000, Buffer=0E961790, Size=00000200)
+SendCommand: Command Index = 17 
+Transfer mode read  = 0x11 
+Transfer mode write = 0x11 
+ BlockSize : 512 
+ LastBlock : 3E77FF 
+Read(LBA=0378A800, Buffer=0E961790, Size=00000200)
+SendCommand: Command Index = 17 
+Transfer mode read  = 0x11 
+Transfer mode write = 0x11 
+Read(LBA=0378A800, Buffer=0E961790, Size=00000200)
+SendCommand: Command Index = 17 
+Transfer mode read  = 0x11 
+Transfer mode write = 0x11 
+Read(LBA=0378A800, Buffer=0DE08010, Size=00000200)
+SendCommand: Command Index = 17 
+Transfer mode read  = 0x11 
+Transfer mode write = 0x11 
+Platform:FlashDeviceSize = 0x00800000 Bytes
+Platform: Spi Config already locked down
+InstallProtocolInterface: 60FF8964-E906-41D0-AFED-F241E974E08E 0
+SmmLockBoxDxeLib SaveLockBox - Enter
+SmmLockBox SmmLockBoxHandler Enter
+SmmLockBox LockBoxParameterHeader - E9D7C6C
+SmmLockBox Command - 1
+SmmLockBoxSmmLib SaveLockBox - Enter
+SmmLockBoxSmmLib SaveLockBox - Exit (Success)
+SmmLockBox SmmLockBoxHandler Exit
+SmmLockBoxDxeLib SaveLockBox - Exit (Success)
+SmmLockBoxDxeLib SetLockBoxAttributes - Enter
+SmmLockBox SmmLockBoxHandler Enter
+SmmLockBox LockBoxParameterHeader - E9D7C74
+SmmLockBox Command - 4
+SmmLockBoxSmmLib SetLockBoxAttributes - Enter
+SmmLockBoxSmmLib SetLockBoxAttributes - Exit (Success)
+SmmLockBox SmmLockBoxHandler Exit
+SmmLockBoxDxeLib SetLockBoxAttributes - Exit (Success)
+SmmLockBoxDxeLib SaveLockBox - Enter
+SmmLockBox SmmLockBoxHandler Enter
+SmmLockBox LockBoxParameterHeader - E9D7C6C
+SmmLockBox Command - 1
+SmmLockBoxSmmLib SaveLockBox - Enter
+SmmLockBoxSmmLib SaveLockBox - Exit (Success)
+SmmLockBox SmmLockBoxHandler Exit
+SmmLockBoxDxeLib SaveLockBox - Exit (Success)
+SmmLockBoxDxeLib SetLockBoxAttributes - Enter
+SmmLockBox SmmLockBoxHandler Enter
+SmmLockBox LockBoxParameterHeader - E9D7C74
+SmmLockBox Command - 4
+SmmLockBoxSmmLib SetLockBoxAttributes - Enter
+SmmLockBoxSmmLib SetLockBoxAttributes - Exit (Success)
+SmmLockBox SmmLockBoxHandler Exit
+SmmLockBoxDxeLib SetLockBoxAttributes - Exit (Success)
+SmmLockBoxDxeLib SaveLockBox - Enter
+SmmLockBox SmmLockBoxHandler Enter
+SmmLockBox LockBoxParameterHeader - E9D7C6C
+SmmLockBox Command - 1
+SmmLockBoxSmmLib SaveLockBox - Enter
+SmmLockBoxSmmLib SaveLockBox - Exit (Success)
+SmmLockBox SmmLockBoxHandler Exit
+SmmLockBoxDxeLib SaveLockBox - Exit (Success)
+SmmLockBoxDxeLib SetLockBoxAttributes - Enter
+SmmLockBox SmmLockBoxHandler Enter
+SmmLockBox LockBoxParameterHeader - E9D7C74
+SmmLockBox Command - 4
+SmmLockBoxSmmLib SetLockBoxAttributes - Enter
+SmmLockBoxSmmLib SetLockBoxAttributes - Exit (Success)
+SmmLockBox SmmLockBoxHandler Exit
+SmmLockBoxDxeLib SetLockBoxAttributes - Exit (Success)
+SmmInstallProtocolInterface: 47B7FA8C-F4BD-4AF6-8200-333086F0D2C8 0
+SMM IPL locked SMRAM window
+
+
+     Press [Enter] to directly boot.
+     Press [F7]    to show boot menu options.
+Before Entering Setup...
+InstallProtocolInterface: D9F1669A-F505-48BD-A892-94B7CA903031 0
+SecureLockBoot Do Nothing: Continue to BootOption Boot
+[Bds]=============Dumping Boot Options=============
+[Bds]Boot0000: UEFI Payload 		 0x0001
+[Bds]Boot0002: Boot Device List 		 0x0100
+[Bds]Boot0003: UEFI Misc Device 		 0x0001
+[Bds]Boot0001: UEFI Internal Shell 		 0x0001
+[Bds]=============Dumping Boot Options Finished====
+[Bds]BdsWait ...Zzzzzzzzzzzz...
+[Bds]BdsWait(5)..Zzzz...
+[Bds]BdsWait(4)..Zzzz...
+[Bds]BdsWait(3)..Zzzz...
+[Bds]BdsWait(2)..Zzzz...
+[Bds]BdsWait(1)..Zzzz...
+[Bds]Exit the waiting!
+[Bds]Stop Hotkey Service!
+[Bds]UnregisterKeyNotify: 0011/0000 Success
+[Bds]UnregisterKeyNotify: 0011/0000 Success
+[Bds]UnregisterKeyNotify: 0000/000D Success
+[Bds]UnregisterKeyNotify: 0000/000D Success
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E301628
+Loading driver at 0x0000DDD0000 EntryPoint=0x0000DDD1298 
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF DE12690
+Memory  Previous  Current    Next   
+ Type    Pages     Pages     Pages  
+======  ========  ========  ========
+  00    00000010  0000000F  00000010
+  0A    00000D00  00000C2C  00000D00
+  06    00000060  00000011  00000060
+  05    00000060  0000002B  00000060
+  09    00000040  0000000C  00000040
+[Bds]Booting UEFI Payload
+Read(LBA=00000000, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x11 
+Transfer mode write = 0x37 
+Read(LBA=000007E0, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00000818, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00007700, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00007738, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00007770, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+
+
+    GNU GRUB  version 0.97  (604K lower / 244604K upper memory)
+
+ +-------------------------------------------------------------------------+
+ | Clanton SVP kernel-SPI initrd-SPI IMR-On IO-APIC/HPET NoEMU             |  
+ | Clanton SVP kernel-SPI rootfs-SD IMR-On IO-APIC/HPET NoEMU              |
+ | Clanton SVP kernel-MassStorage initrd-MassStorage big-rootfs IMR-On I>  |
+ |                                                                         |
+ |                                                                         |
+ |                                                                         |
+ |                                                                         |
+ |                                                                         |
+ |                                                                         |
+ |                                                                         |
+ |                                                                         |
+ |                                                                         |  
+ +-------------------------------------------------------------------------+
+      Use the ^ and v keys to select which entry is highlighted.
+      Press enter to boot the selected OS, 'e' to edit the
+      commands before booting, 'a' to modify the kernel arguments
+      before booting, or 'c' for a command-line.
+
+   The highlighted entry will be booted automatically in 1 seconds.    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Read(LBA=00000000, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00000000, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=000007E0, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00000818, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00000000, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00000000, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=000007E0, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00000818, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00007700, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609400, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Found layout.conf @ 0xffcff000 len 0x00000c05
+
+
+# WARNING: this file is indirectly included in a Makefile where it
+
+# defines Make targets and pre-requisites. As a consequence you MUST
+
+# run "make clean" BEFORE making changes to it. Failure to do so may
+
+# result in the make process being unable to clean files it no longer
+
+# has references to.
+
+
+
+[main]
+
+size=8388608
+
+type=global
+
+
+
+
+
+[MFH]
+
+version=0x1
+
+flags=0x0
+
+address=0xfff08000
+
+type=mfh
+
+
+
+
+
+[Flash Image Version]
+
+type=mfh.version
+
+meta=version
+
+value=0x01000000
+
+
+
+[ROM_OVERLAY]
+
+address=0xfffe0000
+
+item_file=../../Quark_EDKII/Build/QuarkPlatform/DEBUG_GCC/FV/FlashModules/EDKII_BOOTROM_OVERRIDE.Fv
+
+type=some_type
+
+
+
+[signed-key-module]
+
+address=0xfffd8000
+
+item_file=config/SvpSignedKeyModule.bin
+
+svn_index=0
+
+type=some_type
+
+in_capsule=no
+
+
+
+# On a deployed system, the SVN area holds the last known secure
+
+# version of each signed asset.
+
+# TODO: generate this area by collecting the SVN from the assets
+
+# themselves.
+
+[svn-area]
+
+address=0xfffd0000
+
+item_file=config/SVNArea.bin
+
+type=some_type
+
+# A capsule upgrade must implement some smart logic to make sure the
+
+# highest Security Version Number always wins (rollback protection)
+
+in_capsule=no
+
+
+
+[fixed_recovery_image]
+
+address=0xfff90000
+
+item_file=../../Quark_EDKII/Build/QuarkPlatform/DEBUG_GCC/FV/FlashModules/EDKII_RECOVERY_IMAGE1.Fv
+
+sign=yes
+
+type=mfh.host_fw_stage1_signed
+
+svn_index=2
+
+# in_capsule=no
+
+
+
+[NV_Storage]
+
+address=0xfff30000
+
+item_file=../../Quark_EDKII/Build/QuarkPlatform/DEBUG_GCC/FV/FlashModules/EDKII_NVRAM.bin
+
+type=some_type
+
+
+
+[RMU]
+
+address=0xfff00000
+
+item_file=../../Quark_EDKII/Build/QuarkPlatform/DEBUG_GCC/FV/FlashModules/RMU.bin
+
+type=none_registered
+
+
+
+[boot_stage1_image1]
+
+address=0xffec0000
+
+item_file=../../Quark_EDKII/Build/QuarkPlatform/DEBUG_GCC/FV/FlashModules/EDKII_BOOT_STAGE1_IMAGE1.Fv
+
+sign=yes
+
+boot_index=0
+
+type=mfh.host_fw_stage1_signed
+
+svn_index=1
+
+
+
+[boot_stage1_image2]
+
+address=0xffe80000
+
+item_file=../../Quark_EDKII/Build/QuarkPlatform/DEBUG_GCC/FV/FlashModules/EDKII_BOOT_STAGE1_IMAGE2.Fv
+
+sign=yes
+
+boot_index=1
+
+type=mfh.host_fw_stage1_signed
+
+svn_index=1
+
+
+
+[boot_stage_2_compact]
+
+address=0xffd00000
+
+item_file=../../Quark_EDKII/Build/QuarkPlatform/DEBUG_GCC/FV/FlashModules/EDKII_BOOT_STAGE2_COMPACT.Fv
+
+sign=yes
+
+type=mfh.host_fw_stage2_signed
+
+svn_index=3
+
+
+
+[Ramdisk]
+
+address=0xffa60000
+
+item_file=../../meta-clanton/yocto_build/tmp/deploy/image-spi-galileo/image-spi-galileo-clanton.cpio.lzma
+
+sign=yes
+
+type=mfh.ramdisk_signed
+
+svn_index=7
+
+
+
+[LAYOUT.CONF_DUMP]
+
+address=0xffcff000
+
+type=mfh.build_information
+
+meta=layout
+
+
+
+[Kernel]
+
+address=0xff852000
+
+item_file=../../meta-clanton/yocto_build/tmp/deploy/image-spi-galileo/bzImage
+
+sign=yes
+
+type=mfh.kernel_signed
+
+svn_index=6
+
+
+
+[grub.conf]
+
+address=0xff851000
+
+item_file=grub/grub-ce.conf
+
+sign=yes
+
+type=mfh.bootloader_conf_signed
+
+svn_index=5
+
+
+
+[grub]
+
+address=0xff800000
+
+item_file=../../meta-clanton/yocto_build/tmp/deploy/image-spi-galileo/grub.efi
+
+sign=yes
+
+fvwrap=yes
+
+guid=B43BD3E1-64D1-4744-9394-D0E1C4DE8C87
+
+type=mfh.bootloader_signed
+
+svn_index=4
+
+
+
+
+[Linux-EFI, setup=0x1091, size=0x202ee0]
+Read(LBA=00609438, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00000E00, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609438, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609470, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=006094A8, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=006094E0, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609518, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609550, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609588, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=006095C0, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=006095F8, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609630, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609668, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=006096A0, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=006096D8, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609710, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609748, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609780, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=006097B8, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=006097F0, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609828, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609860, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609898, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=006098D0, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609908, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609940, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609978, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=006099B0, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=006099E8, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609A20, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609A58, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609A90, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609AC8, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609B00, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609B38, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609B70, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609BA8, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609BE0, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609C18, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609C50, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609C88, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609CC0, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609CF8, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609D30, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609D68, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609DA0, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609DD8, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609E10, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609E48, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609E80, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609EB8, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609EF0, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609F28, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609F60, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609F98, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00609FD0, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=0060A008, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=0060A040, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=0060A078, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=0060A0B0, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=0060A0E8, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=0060A120, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=0060A158, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=0060A190, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=0060A1C8, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=0060A200, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=0060A238, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=0060A270, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=0060A2A8, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=0060A2E0, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=0060A318, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=0060A350, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=0060A388, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=0060A3C0, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=0060A3F8, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=0060A430, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00000000, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=000007E0, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00000818, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00007700, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008928, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00000818, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008948, Buffer=0D9F7000, Size=00003000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008960, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008998, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=000089D0, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008A08, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008A40, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008A78, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008AB0, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008AE8, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008B20, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008B58, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008B90, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008BC8, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008C00, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008C38, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008C70, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008CA8, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008CE0, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008D18, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008D50, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008D88, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008DC0, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008DF8, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008E30, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008E68, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008EA0, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008ED8, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008F10, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008F48, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008F80, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008FB8, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00008FF0, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00009028, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00009060, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00009098, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=000090D0, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00009108, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00009140, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00009178, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=000091B0, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=000091E8, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00009220, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00009258, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00009290, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=000092C8, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00009300, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00009338, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00009370, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=000093A8, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=000093E0, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+Read(LBA=00009418, Buffer=0D9F7000, Size=00007000)
+SendCommand: Command Index = 18 
+Transfer mode read  = 0x37 
+Transfer mode write = 0x37 
+[Initrd, addr=0xd828000, size=0x15ee91]
+[    2.793277] console [ttyS1] enabled, bootconsole disabled
+[    2.806321] Real Time Clock Driver v1.12b
+[    2.823699] brd: module loaded
+[    2.842845] loop: module loaded
+[    2.848539] lpc_sch_probe BIOS_CNTL 0x00000101
+[    2.853185] lpc_sch_probe new BIOS_CNTL 0x00000101
+[    2.858038] lpc_sch_probe RCBA @ 0xfed1c000
+[    2.885814] cpuidle: using governor ladder
+[    2.889983] cpuidle: using governor menu
+[    2.895627] sdhci: Secure Digital Host Controller Interface driver
+[    2.901984] sdhci: Copyright(c) Pierre Ossman
+[    2.906976] sdhci-pci 0000:00:14.0: SDHCI controller found [8086:08a7] (rev 10)
+[    2.960249] mmc0: SDHCI controller on PCI [0000:00:14.0] using ADMA
+[    2.973775] sdhci-pltfm: SDHCI platform and OF driver helper
+[    2.996181] THRM: critical reset 104 c hot 95 c hardware failover 105 c
+[    3.021751] TCP: cubic registered
+[    3.025137] NET: Registered protocol family 17
+[    3.034616] ... APIC ID:      00000000 (0)
+[    3.038745] ... APIC VERSION: 00030010
+[    3.040060] 0000000000000000000000000000000000000000000000000000000000000000
+[    3.040060] 0000000000000000000000000002000000000000000000000000000000000000
+[    3.040060] 0000000000000000000000000000000000000000000000000000000000008000
+[    3.040060] 
+[    3.066411] testing the IO APIC.......................
+[    3.073871] .................................... done.
+[    3.079051] Using IPI Shortcut mode
+[    3.096421]   Magic number: 1:0:0
+[    3.112496] Freeing unused kernel memory: 272k freed
+[    3.120529] Write protecting the kernel text: 3120k
+[    3.126574] Write protecting the kernel read-only data: 1284k
+[    3.132502] NX-protecting the kernel data: 3024k
+[    3.163664] mmc0: new high speed SDHC card at address aaaa
+[    3.190512] mmcblk0: mmc0:aaaa SU32G 29.7 GiB 
+[    3.220931] tsc: Refined TSC clocksource calibration: 399.076 MHz
+[    3.227268] Switching to clocksource tsc
+[    3.240298]  mmcblk0: p1 p2
+[    3.363241] udevd[543]: starting version 182
+Waiting for removable media...
+  5[   11.005676] kjournald starting.  Commit interval 5 seconds
+[   11.012523] EXT3-fs (loop0): using internal journal
+[   11.025377] EXT3-fs (loop0): recovery complete
+[   11.029881] EXT3-fs (loop0): mounted filesystem with writeback data mode
+
+INIT: version 2.88 booting
+
+[info] Using makefile-style concurrent boot in runlevel S.
+[info] Setting the system clock.
+hwclock: Cannot access the Hardware Clock via any known method.
+hwclock: Use the --debug option to see the details of our search for an access method.
+[warn] Unable to set System Clock to: Mon Jan 1 00:00:35 UTC 2001 ... (warning).
+[....] Activating swap...[   16.530744] Adding 2046972k swap on /dev/mmcblk0p2.  Priority:-1 extents:1 across:2046972k SS
+done.
+[   18.311700] g_serial: Vendor 0x8086 Product 0xbabe
+[   18.316648] g_serial gadget: Gadget Serial v2.4
+[   18.354122] g_serial gadget: g_serial ready
+[   18.822160] stmmaceth 0000:00:14.6: enabling device (0000 -> 0002)
+[   18.829252] stmmac MSI mode enabled
+[   18.832749] Vendor 0x8086 Device 0x0937
+[   18.868873] stmmac - user ID: 0x10, Synopsys ID: 0x37
+[   18.874110]  DMA HW capability register supported
+[   18.878688]  Enhanced/Alternate descriptors
+[   18.883229]  RX Checksum Offload Engine supported (type 2)
+[   18.888763]  TX Checksum insertion supported
+[   18.893194]  Enable RX Mitigation via HW Watchdog Timer
+[   19.134731] libphy: stmmac: probed
+[   19.138199] eth0: PHY ID 20005c90 at 1 IRQ 0 (stmmac-1:01) active
+[ ok ] Cleaning up temporary files... /tmp.
+[   19.611212] ACPI: bus type usb registered
+[   19.633407] usbcore: registered new interface driver usbfs
+[   19.645109] usbcore: registered new interface driver hub
+[   19.661215] usbcore: registered new device driver usb
+[   19.717468] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[   20.080439] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[   20.087266] ohci_hcd 0000:00:14.4: OHCI Host Controller
+[   20.125168] ohci_hcd 0000:00:14.4: new USB bus registered, assigned bus number 1
+[   20.150726] ohci_hcd 0000:00:14.4: irq 16, io mem 0x9000c000
+[   20.248128] hub 1-0:1.0: USB hub found
+[   20.260775] hub 1-0:1.0: 2 ports detected
+[   20.670936] ehci-pci: EHCI PCI platform driver
+[   20.676026] ehci-pci 0000:00:14.3: EHCI Host Controller
+[   20.689455] ehci-pci 0000:00:14.3: new USB bus registered, assigned bus number 2
+[   20.712185] ehci-pci 0000:00:14.3: INSNREG01 is 0x007f007f
+[   20.717738] ehci-pci 0000:00:14.3: INSNREG01 is 0x007f007f
+[   20.739529] ehci-pci 0000:00:14.3: irq 19, io mem 0x9000d000
+[   20.760244] ehci-pci 0000:00:14.3: USB 2.0 started, EHCI 1.00
+[   20.800930] hub 2-0:1.0: USB hub found
+[   20.804946] hub 2-0:1.0: 2 ports detected
+[   21.195028] Initializing USB Mass Storage driver...
+[   21.210762] usbcore: registered new interface driver usb-storage
+[   21.216822] USB Mass Storage support registered.
+[   21.972151] intel_cln_gpio_probe UIO addr 0x90006000 internal_addr 0x00000000 size 3765125120 memtype 4096
+[   22.352390] cy8c9540a 0-0020: dev_id=0x40
+[info] Loading kernel module pch-udc.
+[info] Loading kernel module g-serial.
+[info] Loading kernel module stmmac.
+[info] Loading kernel module ehci_hcd.
+[info] Loading kernel module ohci_hcd.
+[info] Loading kernel module ehci-pci.
+[info] Loading kernel module usb_storage.
+[info] Loading kernel module gpio_sch.
+[info] Loading kernel module intel_cln_gip.
+[info] Loading kernel module cy8c9540a.
+[   22.846070] at24 0-0050: byte_len looks suspicious (no power of 2)!
+[   22.880525] at24 0-0050: 11264 byte at24 EEPROM, writable, 1 bytes/write
+[   23.241012] i2c /dev entries driver
+[   24.194742] ce4100_spi 0000:00:15.0: enabling device (0000 -> 0002)
+[   24.219071] ce4100_spi 0000:00:15.1: enabling device (0000 -> 0002)
+[   24.550937] spi_master spi0: will run message pump with realtime priority
+[   24.610323] spi_master spi1: will run message pump with realtime priority
+[   25.877014] cfg80211: Calling CRDA to update world regulatory domain
+[   25.954585] Intel(R) Wireless WiFi driver for Linux, in-tree:
+[   25.960517] Copyright(c) 2003-2012 Intel Corporation
+[   26.681513] Bluetooth: Core ver 2.16
+[   26.687665] NET: Registered protocol family 31
+[   26.692290] Bluetooth: HCI device and connection manager initialized
+[   26.720957] Bluetooth: HCI socket layer initialized
+[   26.725968] Bluetooth: L2CAP socket layer initialized
+[   26.760465] Bluetooth: SCO socket layer initialized
+[   26.789391] usbcore: registered new interface driver btusb
+[   27.150757] usbcore: registered new interface driver usbhid
+[   27.156384] usbhid: USB HID core driver
+[info] Loading kernel module at24.
+[info] Loading kernel module i2c_dev.
+[info] Loading kernel module spidev.
+[info] Loading kernel module mtd.
+[info] Loading kernel module spi-pxa2xx-pci.
+[info] Loading kernel module spi-pxa2xx.
+[info] Loading kernel module industrialio.
+[info] Loading kernel module ad7298.
+[info] Loading kernel module iwlwifi.
+[info] Loading kernel module m25p80.
+[info] Loading kernel module btusb.
+[info] Loading kernel module usbhid.
+[info] Loading kernel module evdev.
+[ ok ] Activating lvm and md swap...done.
+[....] Checking file systems...fsck from util-linux 2.20.1
+done.
+[ ok ] Mounting local filesystems...done.
+[ ok ] Activating swapfile swap...done.
+[ ok ] Cleaning up temporary files....
+[ ok ] Setting kernel variables ...done.
+[....] Configuring network interfaces...[   35.837371] NET: Registered protocol family 10
+Internet Systems Consortium DHCP Client 4.2.2
+Copyright 2004-2011 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+[   36.187757] eth0: device MAC address 98:4f:ee:01:38:6f
+Listening on LPF/eth0/98:4f:ee:01:38:6f
+Sending on   LPF/eth0/98:4f:ee:01:38:6f
+Sending on   Socket/fallback
+DHCPREQUEST on eth0 to 255.255.255.255 port 67
+[   38.190505] libphy: stmmac-1:01 - Link is Up - 100/Full
+DHCPREQUEST on eth0 to 255.255.255.255 port 67
+DHCPACK from 192.168.11.1
+bound to 192.168.11.11 -- renewal in 83491 seconds.
+done.
+[ ok ] Cleaning up temporary files....
+[ ok ] Setting up X socket directories... /tmp/.X11-unix /tmp/.ICE-unix.
+
+INIT: Entering runlevel: 5
+
+[info] Using makefile-style concurrent boot in runlevel 5.
+[ ok ] Starting enhanced syslogd: rsyslogd.
+Starting script ssh 
+[ ok ] Starting periodic command scheduler: cron.
+[ ok ] Starting NTP server: ntpd.
+Sketch child process started, pid=02662
+Starting /sketch/sketch.elf /dev/pts/0 /dev/ttyS0
+
+Debian GNU/Linux 7 Galileo-Debian ttyS1
+
+Galileo-Debian login: debian
+
+Password: 
+Last login: Sat Sep 20 09:33:20 UTC 2014 on ttyS1
+Linux Galileo-Debian 3.8.7-yocto-standard #2 Fri Sep 19 23:30:55 JST 2014 i586
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+debian@Galileo-Debian:~$ free -h
+             total       used       free     shared    buffers     cached
+Mem:          227M        67M       159M         0B       3.6M        49M
+-/+ buffers/cache:        14M       212M
+Swap:         2.0G         0B       2.0G
+debian@Galileo-Debian:~$ 
