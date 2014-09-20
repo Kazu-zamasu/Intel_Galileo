@@ -1,6 +1,5 @@
 Intel_Galileo
 =============
-any data.  
 #YoctoProjectのカーネルビルドでSWAPをEnableにしました。  
 ZIPをDLして展開してください。 
 DL-LINKは以下です。  
@@ -14,4 +13,4 @@ https://github.com/jitomesky/Installing_Galileo-debian/blob/master/galileo-debia
 config.baseはLinuxビルドコンフィグファイルです。本イメージのコンフィグファイルとなります。  
 config.baseはSDカードに入れる必要はありません。  
 SDカードにコピーするファイルはconfig.base以外の全てです。  
-Galileoのファームウェアは現行のファームでは確認していません。  
+Galileoのファームウェアは現行のファームでも確認しました。  
